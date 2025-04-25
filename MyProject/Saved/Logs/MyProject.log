@@ -2944,3 +2944,146 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.04.25-17.40.45:010][605]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
 [2025.04.25-17.40.45:016][605]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
 [2025.04.25-17.40.45:065][606]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2025.04.25-17.43.40:467][ 28]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.04.25-17.43.40:471][ 28]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.25-17.43.40:510][ 28]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Input/IMC_Default] ([1] browsable assets)...
+[2025.04.25-17.43.40:510][ 28]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Input/IMC_Default]
+[2025.04.25-17.43.40:510][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Input/IMC_Default" FILE="../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/ThirdPerson/Input/IMC_Default.uasset" SILENT=true
+[2025.04.25-17.43.40:511][ 28]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Input/IMC_Default
+[2025.04.25-17.43.40:511][ 28]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/IMC_DefaultA996824C46C8A35AC6DB74AB4D23B4DB.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/ThirdPerson/Input/IMC_Default.uasset'
+[2025.04.25-17.43.40:512][ 28]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Input/Actions/IA_Sprint] ([1] browsable assets)...
+[2025.04.25-17.43.40:512][ 28]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Input/Actions/IA_Sprint]
+[2025.04.25-17.43.40:512][ 28]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Input/Actions/IA_Sprint
+[2025.04.25-17.43.40:512][ 28]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/IA_Sprint0DDB2F8C4371DCD6E2B18F97CC478B6D.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/ThirdPerson/Input/Actions/IA_Sprint.uasset'
+[2025.04.25-17.43.40:513][ 28]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Knight/Idle_PhysicsAsset] ([1] browsable assets)...
+[2025.04.25-17.43.40:513][ 28]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Idle_PhysicsAsset]
+[2025.04.25-17.43.40:517][ 28]LogSavePackage: Moving output files for package: /Game/Characters/Knight/Idle_PhysicsAsset
+[2025.04.25-17.43.40:517][ 28]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Idle_PhysicsAsset9EB0A47A44D62BCF52AE16AA9BFA222B.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Idle_PhysicsAsset.uasset'
+[2025.04.25-17.43.40:518][ 28]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Knight/Idle] ([1] browsable assets)...
+[2025.04.25-17.43.40:518][ 28]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Idle]
+[2025.04.25-17.43.40:518][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Knight/Idle" FILE="../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Idle.uasset" SILENT=true
+[2025.04.25-17.43.40:523][ 28]LogSavePackage: Moving output files for package: /Game/Characters/Knight/Idle
+[2025.04.25-17.43.40:523][ 28]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/IdleCDEB26C042EC7F874241FBA647DA8A76.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Idle.uasset'
+[2025.04.25-17.43.40:552][ 28]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Knight/Idle_Anim] ([1] browsable assets)...
+[2025.04.25-17.43.40:552][ 28]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Idle_Anim]
+[2025.04.25-17.43.40:552][ 28]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Knight/Idle_Anim" FILE="../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Idle_Anim.uasset" SILENT=true
+[2025.04.25-17.43.40:556][ 28]LogSavePackage: Moving output files for package: /Game/Characters/Knight/Idle_Anim
+[2025.04.25-17.43.40:556][ 28]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Idle_AnimC976376D497678EE16BE83AC9326447A.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Idle_Anim.uasset'
+[2025.04.25-17.43.40:592][ 28]LogFileHelpers: InternalPromptForCheckoutAndSave took 121.196 ms (total: 305.949 ms)
+[2025.04.25-17.43.40:625][ 28]LogContentValidation: Display: Starting to validate 5 assets
+[2025.04.25-17.43.40:625][ 28]LogContentValidation: Enabled validators:
+[2025.04.25-17.43.40:625][ 28]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.25-17.43.40:625][ 28]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.25-17.43.40:625][ 28]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.25-17.43.40:625][ 28]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.25-17.43.40:625][ 28]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.25-17.43.40:625][ 28]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.25-17.43.40:625][ 28]AssetCheck: /Game/ThirdPerson/Input/IMC_Default Validating asset
+[2025.04.25-17.43.40:625][ 28]AssetCheck: /Game/ThirdPerson/Input/Actions/IA_Sprint Validating asset
+[2025.04.25-17.43.40:625][ 28]AssetCheck: /Game/Characters/Knight/Idle_PhysicsAsset Validating asset
+[2025.04.25-17.43.40:625][ 28]AssetCheck: /Game/Characters/Knight/Idle Validating asset
+[2025.04.25-17.43.40:625][ 28]AssetCheck: /Game/Characters/Knight/Idle_Anim Validating asset
+[2025.04.25-17.43.41:782][125]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2025.04.25-17.43.41:806][125]LogStall: Shutdown...
+[2025.04.25-17.43.41:806][125]LogStall: Shutdown complete.
+[2025.04.25-17.43.41:916][125]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.04.25-17.43.41:916][125]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.25-17.43.41:926][125]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.04.25-17.43.41:926][125]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.25-17.43.41:932][125]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.04.25-17.43.41:932][125]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.25-17.43.41:973][125]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2025.04.25-17.43.41:973][125]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.25-17.43.42:030][125]LogSlate: Window 'MyProject - Unreal Editor' being destroyed
+[2025.04.25-17.43.42:125][125]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2025.04.25-17.43.42:137][126]Cmd: QUIT_EDITOR
+[2025.04.25-17.43.42:137][126]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.04.25-17.43.42:140][126]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.04.25-17.43.42:140][126]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.04.25-17.43.42:140][126]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.04.25-17.43.42:141][126]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.25-17.43.42:141][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.25-17.43.42:141][126]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2025.04.25-17.43.42:145][126]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.04.25-17.43.42:145][126]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.04.25-17.43.42:147][126]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.04.25-17.43.42:147][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.25-17.43.42:151][126]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.04.25-17.43.42:151][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.25-17.43.42:154][126]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.04.25-17.43.42:154][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.25-17.43.42:155][126]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.04.25-17.43.42:155][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.25-17.43.42:157][126]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.04.25-17.43.42:157][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.25-17.43.42:158][126]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.04.25-17.43.42:158][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.25-17.43.42:159][126]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.04.25-17.43.42:159][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.25-17.43.42:160][126]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.04.25-17.43.42:160][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.25-17.43.42:162][126]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.04.25-17.43.42:162][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.25-17.43.42:163][126]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.04.25-17.43.42:163][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.25-17.43.42:164][126]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.04.25-17.43.42:164][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.25-17.43.42:165][126]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.04.25-17.43.42:166][126]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.04.25-17.43.42:166][126]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.04.25-17.43.42:166][126]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.04.25-17.43.42:323][126]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.04.25-17.43.42:323][126]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.04.25-17.43.42:323][126]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap'.
+[2025.04.25-17.43.42:323][126]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.04.25-17.43.42:323][126]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.04.25-17.43.42:324][126]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.04.25-17.43.42:350][126]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.04.25-17.43.42:350][126]LogAudio: Display: Audio Device Manager Shutdown
+[2025.04.25-17.43.42:351][126]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2025.04.25-17.43.42:352][126]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.04.25-17.43.42:352][126]LogExit: Preparing to exit.
+[2025.04.25-17.43.42:370][126]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2025.04.25-17.43.42:372][126]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.25-17.43.42:372][126]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.25-17.43.42:372][126]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.25-17.43.42:372][126]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.25-17.43.42:372][126]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.25-17.43.42:372][126]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.25-17.43.42:372][126]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.25-17.43.42:372][126]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.25-17.43.42:372][126]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.25-17.43.42:372][126]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.25-17.43.42:372][126]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.25-17.43.42:372][126]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.25-17.43.42:372][126]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.25-17.43.42:372][126]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.25-17.43.42:372][126]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.25-17.43.42:372][126]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.25-17.43.42:372][126]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.25-17.43.42:372][126]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.25-17.43.42:372][126]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.25-17.43.42:372][126]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.25-17.43.42:372][126]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.04.25-17.43.43:090][126]LogEditorDataStorage: Deinitializing
+[2025.04.25-17.43.43:146][126]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.04.25-17.43.43:154][126]LogExit: Editor shut down
+[2025.04.25-17.43.43:155][126]LogExit: Transaction tracking system shut down
+[2025.04.25-17.43.43:235][126]LogExit: Object subsystem successfully closed.
+[2025.04.25-17.43.43:263][126]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.04.25-17.43.44:208][126]LogMemoryProfiler: Shutdown
+[2025.04.25-17.43.44:208][126]LogNetworkingProfiler: Shutdown
+[2025.04.25-17.43.44:208][126]LoadingProfiler: Shutdown
+[2025.04.25-17.43.44:208][126]LogTimingProfiler: Shutdown
+[2025.04.25-17.43.44:503][126]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.04.25-17.43.44:507][126]RenderDocPlugin: plugin has been unloaded.
+[2025.04.25-17.43.44:516][126]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.04.25-17.43.44:516][126]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFCF0160B-4324-5D23-48F0-0F85DFD466CF%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.1-38445549%2B%2B%2BUE5%2BRelease-5.5&UserID=0c101c694382812f911a5cb017cb745a%7C%7C8c375ba5-0f92-45c4-99dc-2a80b055b6f8&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.04.25-17.43.44:518][126]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.04.25-17.43.44:518][126]LogNFORDenoise: NFORDenoise function shutting down
+[2025.04.25-17.43.44:519][126]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.04.25-17.43.44:520][126]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.04.25-17.43.44:520][126]LogPakFile: Destroying PakPlatformFile
+[2025.04.25-17.43.44:710][126]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.04.25-17.43.44:748][126]LogExit: Exiting.
+[2025.04.25-17.43.44:760][126]Log file closed, 04/25/25 13:43:44
