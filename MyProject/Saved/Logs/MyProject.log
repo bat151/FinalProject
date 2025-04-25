@@ -1760,3 +1760,269 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.04.25-16.27.29:475][  1]LogSourceControl: Uncontrolled asset enumeration finished in 0.240991 seconds (Found 7494 uncontrolled assets)
 [2025.04.25-16.27.32:046][217]LogPSOHitching: Encountered 100 PSO creation hitches so far (32 graphics, 68 compute). 0 of them were precached.
 [2025.04.25-16.27.42:461][296]LogD3D12RHI: Compiled PathTracingMainRG for RTPSO in 18591.69 ms.
+[2025.04.25-16.30.29:306][879]LogShaderCompilers: Display: ================================================
+[2025.04.25-16.30.29:306][879]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.04.25-16.30.29:306][879]LogShaderCompilers: Display: Total job queries 11,635, among them cache hits 3 (0.03%), DDC hits 0 (0.00%), Duplicates 2,681 (23.04%)
+[2025.04.25-16.30.29:306][879]LogShaderCompilers: Display: Tracking 8,951 distinct input hashes that result in 8,463 distinct outputs (94.55%)
+[2025.04.25-16.30.29:306][879]LogShaderCompilers: Display: RAM used: 6.35 MiB of 1.60 GiB budget. Usage: 0.39%
+[2025.04.25-16.30.29:306][879]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.04.25-16.30.29:306][879]LogShaderCompilers: Display: Shaders Compiled: 8,951
+[2025.04.25-16.30.29:306][879]LogShaderCompilers: Display: Jobs assigned 8,951, completed 8,951 (100%)
+[2025.04.25-16.30.29:306][879]LogShaderCompilers: Display: Average time worker was idle: 0.12 s
+[2025.04.25-16.30.29:306][879]LogShaderCompilers: Display: Time job spent in pending queue: average 138.56 s, longest 274.44 s
+[2025.04.25-16.30.29:306][879]LogShaderCompilers: Display: Job execution time: average 3.72 s, max 49.14 s
+[2025.04.25-16.30.29:306][879]LogShaderCompilers: Display: Job life time (pending + execution): average 142.28 s, max 274.77
+[2025.04.25-16.30.29:306][879]LogShaderCompilers: Display: Shader code size: average 14.295 KiB, min 1.16 KiB, max 330.049 KiB
+[2025.04.25-16.30.29:306][879]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 292.05 s
+[2025.04.25-16.30.29:306][879]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.20%
+[2025.04.25-16.30.29:306][879]LogShaderCompilers: Display: Jobs were issued in 1,000 batches (only local compilation was used), average 8.95 jobs/batch
+[2025.04.25-16.30.29:306][879]LogShaderCompilers: Display: Average processing rate: 30.65 jobs/sec
+[2025.04.25-16.30.29:306][879]LogShaderCompilers: Display: Total thread time: 3,368.927 s
+[2025.04.25-16.30.29:306][879]LogShaderCompilers: Display: Total thread preprocess time: 93.063 s
+[2025.04.25-16.30.29:306][879]LogShaderCompilers: Display: Percentage time preprocessing: 2.76%
+[2025.04.25-16.30.29:306][879]LogShaderCompilers: Display: Effective parallelization: 11.54 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2025.04.25-16.30.29:307][879]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.04.25-16.30.29:307][879]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 14.11 sec, max 46.88 sec, min 0.84 sec)
+[2025.04.25-16.30.29:307][879]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 10.28 sec, max 10.28 sec, min 10.28 sec)
+[2025.04.25-16.30.29:307][879]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.27 sec, max 6.18 sec, min 3.27 sec)
+[2025.04.25-16.30.29:307][879]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 2.53 sec, max 5.13 sec, min 0.86 sec)
+[2025.04.25-16.30.29:307][879]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 1.97 sec, max 1.97 sec, min 1.97 sec)
+[2025.04.25-16.30.29:307][879]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.04.25-16.30.29:307][879]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 13.69% of total time (compiled  260 times, average 1.77 sec, max 5.90 sec, min 0.00 sec)
+[2025.04.25-16.30.29:307][879]LogShaderCompilers: Display:                                             FDeferredLightPS - 12.81% of total time (compiled  454 times, average 0.95 sec, max 2.27 sec, min 0.65 sec)
+[2025.04.25-16.30.29:307][879]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 11.31% of total time (compiled   27 times, average 14.11 sec, max 46.88 sec, min 0.84 sec)
+[2025.04.25-16.30.29:307][879]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 5.08% of total time (compiled  480 times, average 0.36 sec, max 0.78 sec, min 0.15 sec)
+[2025.04.25-16.30.29:307][879]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 3.61% of total time (compiled   72 times, average 1.69 sec, max 2.58 sec, min 1.07 sec)
+[2025.04.25-16.30.29:307][879]LogShaderCompilers: Display: === Material stats ===
+[2025.04.25-16.30.29:307][879]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.04.25-16.30.29:307][879]LogShaderCompilers: Display: Materials Translated:    134
+[2025.04.25-16.30.29:307][879]LogShaderCompilers: Display: Material Total Translate Time: 0.06 s
+[2025.04.25-16.30.29:307][879]LogShaderCompilers: Display: Material Translation Only: 0.03 s (49%)
+[2025.04.25-16.30.29:307][879]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.04.25-16.30.29:307][879]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.04.25-16.30.29:307][879]LogShaderCompilers: Display: ================================================
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 0 (Found bundle for host: 0xb943d0402a0 [serially])
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 3 (TLSv1.3 (IN), TLS alert, close notify (256):)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 6 (Closing connection)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 7 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B20E208D6-4AB8-9D44-297F-90AF81E1EFA7%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.1-38445549%2B%2B%2BUE5%2BRelease-5.5&UserID=0c101c694382812f911a5cb017cb745a%7C%7C8c375ba5-0f92-45c4-99dc-2a80b055b6f8&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 9 (  Trying 52.6.26.138:443...)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (52.6.26.138) port 443)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 12 (SSL reusing session ID)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 16 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 18 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 19 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 20 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 21 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 22 (ALPN: server accepted http/1.1)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 23 (Server certificate:)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 24 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 25 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 26 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 27 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 28 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.04.25-16.35.27:691][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 29 ( SSL certificate verify ok.)
+[2025.04.25-16.35.27:692][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 30 (using HTTP/1.1)
+[2025.04.25-16.35.27:692][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 31 (necessary data rewind wasn't possible)
+[2025.04.25-16.35.27:692][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 32 (Closing connection)
+[2025.04.25-16.35.27:692][774]LogHttp: Warning: 00000B94DBE62300: libcurl info message cache 33 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.04.25-16.36.32:120][352]LogSlate: Took 0.005481 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.04.25-16.36.40:314][244]LogChaosDD: Creating Chaos Debug Draw Scene for world World_1
+[2025.04.25-16.37.13:659][904]LogSlate: Took 0.000100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.04.25-16.37.13:672][904]LogChaosDD: Creating Chaos Debug Draw Scene for world World_2
+[2025.04.25-16.37.15:773][904]LogSlate: Window 'Pick Skeleton' being destroyed
+[2025.04.25-16.39.29:465][607]LogShaderCompilers: Display: ================================================
+[2025.04.25-16.39.29:465][607]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.04.25-16.39.29:465][607]LogShaderCompilers: Display: Total job queries 11,649, among them cache hits 3 (0.03%), DDC hits 0 (0.00%), Duplicates 2,681 (23.01%)
+[2025.04.25-16.39.29:465][607]LogShaderCompilers: Display: Tracking 8,965 distinct input hashes that result in 8,471 distinct outputs (94.49%)
+[2025.04.25-16.39.29:465][607]LogShaderCompilers: Display: RAM used: 6.35 MiB of 1.60 GiB budget. Usage: 0.39%
+[2025.04.25-16.39.29:465][607]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.04.25-16.39.29:465][607]LogShaderCompilers: Display: Shaders Compiled: 8,965
+[2025.04.25-16.39.29:465][607]LogShaderCompilers: Display: Jobs assigned 8,965, completed 8,965 (100%)
+[2025.04.25-16.39.29:465][607]LogShaderCompilers: Display: Average time worker was idle: 6.57 s
+[2025.04.25-16.39.29:465][607]LogShaderCompilers: Display: Time job spent in pending queue: average 138.34 s, longest 274.44 s
+[2025.04.25-16.39.29:465][607]LogShaderCompilers: Display: Job execution time: average 3.72 s, max 49.14 s
+[2025.04.25-16.39.29:465][607]LogShaderCompilers: Display: Job life time (pending + execution): average 142.06 s, max 274.77
+[2025.04.25-16.39.29:465][607]LogShaderCompilers: Display: Shader code size: average 14.283 KiB, min 1.16 KiB, max 330.049 KiB
+[2025.04.25-16.39.29:466][607]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 293.31 s
+[2025.04.25-16.39.29:466][607]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.20%
+[2025.04.25-16.39.29:466][607]LogShaderCompilers: Display: Jobs were issued in 1,014 batches (only local compilation was used), average 8.84 jobs/batch
+[2025.04.25-16.39.29:466][607]LogShaderCompilers: Display: Average processing rate: 30.56 jobs/sec
+[2025.04.25-16.39.29:466][607]LogShaderCompilers: Display: Total thread time: 3,374.065 s
+[2025.04.25-16.39.29:466][607]LogShaderCompilers: Display: Total thread preprocess time: 93.246 s
+[2025.04.25-16.39.29:466][607]LogShaderCompilers: Display: Percentage time preprocessing: 2.76%
+[2025.04.25-16.39.29:466][607]LogShaderCompilers: Display: Effective parallelization: 11.50 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2025.04.25-16.39.29:466][607]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.04.25-16.39.29:466][607]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 14.11 sec, max 46.88 sec, min 0.84 sec)
+[2025.04.25-16.39.29:466][607]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 10.28 sec, max 10.28 sec, min 10.28 sec)
+[2025.04.25-16.39.29:466][607]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.27 sec, max 6.18 sec, min 3.27 sec)
+[2025.04.25-16.39.29:466][607]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 2.53 sec, max 5.13 sec, min 0.86 sec)
+[2025.04.25-16.39.29:466][607]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 1.97 sec, max 1.97 sec, min 1.97 sec)
+[2025.04.25-16.39.29:467][607]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.04.25-16.39.29:467][607]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 13.67% of total time (compiled  260 times, average 1.77 sec, max 5.90 sec, min 0.00 sec)
+[2025.04.25-16.39.29:467][607]LogShaderCompilers: Display:                                             FDeferredLightPS - 12.79% of total time (compiled  454 times, average 0.95 sec, max 2.27 sec, min 0.65 sec)
+[2025.04.25-16.39.29:467][607]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 11.29% of total time (compiled   27 times, average 14.11 sec, max 46.88 sec, min 0.84 sec)
+[2025.04.25-16.39.29:467][607]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 5.07% of total time (compiled  480 times, average 0.36 sec, max 0.78 sec, min 0.15 sec)
+[2025.04.25-16.39.29:467][607]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 3.61% of total time (compiled   72 times, average 1.69 sec, max 2.58 sec, min 1.07 sec)
+[2025.04.25-16.39.29:467][607]LogShaderCompilers: Display: === Material stats ===
+[2025.04.25-16.39.29:467][607]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.04.25-16.39.29:467][607]LogShaderCompilers: Display: Materials Translated:    134
+[2025.04.25-16.39.29:467][607]LogShaderCompilers: Display: Material Total Translate Time: 0.06 s
+[2025.04.25-16.39.29:467][607]LogShaderCompilers: Display: Material Translation Only: 0.03 s (49%)
+[2025.04.25-16.39.29:467][607]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.04.25-16.39.29:467][607]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.04.25-16.39.29:467][607]LogShaderCompilers: Display: ================================================
+[2025.04.25-16.43.53:932][775]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.04.25-16.43.53:937][775]LogContentBrowser: Creating deferred item: NewFolder
+[2025.04.25-16.43.53:941][776]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.04.25-16.43.57:408][120]LogContentBrowser: Attempting asset rename: NewFolder -> Knight
+[2025.04.25-16.43.57:408][120]LogContentBrowser: End creating deferred item NewFolder
+[2025.04.25-16.44.05:511][482]LogStreaming: Display: FlushAsyncLoading(396): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.25-16.44.05:560][482]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/bat15/Downloads/Running.fbx]
+[2025.04.25-16.44.10:039][482]LogSlate: Window 'Import Content' being destroyed
+[2025.04.25-16.44.10:056][482]LogInterchangeEngine: [Pending] Importing
+[2025.04.25-16.44.10:119][483]LogStreaming: Display: FlushAsyncLoading(401): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.25-16.44.10:175][484]LogStreaming: Display: FlushAsyncLoading(406): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.25-16.44.10:232][485]LogStreaming: Display: FlushAsyncLoading(407): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.25-16.44.10:303][486]LogStreaming: Display: FlushAsyncLoading(408): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.25-16.44.10:362][487]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Knight/Running_Anim.Running_Anim (Required Memory Estimate: 0.29 MB)
+[2025.04.25-16.44.10:368][487]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Knight/Running_Anim.Running_Anim, at AnimationSequence/ecf4573ecdac4f0dc9d52d3ed0d09930f0bbf028
+[2025.04.25-16.44.10:384][487]LogTexture: Display: Building textures: /Game/Characters/Knight/Guard_03__diffuse.Guard_03__diffuse (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 122.708323 MB), EncodeSpeed: Fast
+[2025.04.25-16.44.10:384][487]LogTexture: Display: Building textures: /Game/Characters/Knight/Guard_03__specular.Guard_03__specular (TFO_AutoDXT, 1024x1024 x1x1x1) (Required Memory Estimate: 122.708323 MB), EncodeSpeed: Fast
+[2025.04.25-16.44.10:386][487]LogTexture: Display: Building textures: /Game/Characters/Knight/Guard_03__normal.Guard_03__normal (TFO_BC5, 1024x1024 x1x1x1) (Required Memory Estimate: 304.499988 MB), EncodeSpeed: Fast
+[2025.04.25-16.44.10:387][487]LogSkeletalMesh: Building Skeletal Mesh Running...
+[2025.04.25-16.44.10:446][489]LogChaosDD: Creating Chaos Debug Draw Scene for world World_3
+[2025.04.25-16.44.10:453][489]LogSkeletalMesh: Built Skeletal Mesh [0.07s] /Game/Characters/Knight/Running.Running
+[2025.04.25-16.44.10:588][490]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SkeletalMesh_64.svg'. File could not be found
+[2025.04.25-16.44.11:500][575]LogChaosDD: Creating Chaos Debug Draw Scene for world World_4
+[2025.04.25-16.44.11:509][575]LogMaterial: Display: Material /Game/Characters/Knight/Guard_03.Guard_03 needed to have new flag set bUsedWithSkeletalMesh !
+[2025.04.25-16.44.11:532][575]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.04.25-16.44.11:533][575]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.25-16.44.11:574][576]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2025.04.25-16.44.11:591][576]LogInterchangeEngine: Display: Interchange import completed [C:/Users/bat15/Downloads/Running.fbx]
+[2025.04.25-16.44.11:591][576]Interchange: Warning: [C:/Users/bat15/Downloads/Running.fbx : 'Running', SkeletalMesh] No smoothing group information was found for this mesh 'Guard03_Mesh' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.04.25-16.44.11:610][576]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.04.25-16.44.11:610][576]LogInterchangeEngine: [Success] Import Done
+[2025.04.25-16.44.12:741][648]LogChaosDD: Creating Chaos Debug Draw Scene for world World_5
+[2025.04.25-16.44.12:789][649]LogChaosDD: Creating Chaos Debug Draw Scene for world World_6
+[2025.04.25-16.44.12:837][651]LogChaosDD: Creating Chaos Debug Draw Scene for world World_7
+[2025.04.25-16.44.12:852][652]LogChaosDD: Creating Chaos Debug Draw Scene for world World_8
+[2025.04.25-16.44.21:091][872]LogStreaming: Display: FlushAsyncLoading(409): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.25-16.44.21:145][872]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/bat15/Downloads/Strut Walking.fbx]
+[2025.04.25-16.44.22:551][872]LogSlate: Window 'Import Content' being destroyed
+[2025.04.25-16.44.22:571][872]LogInterchangeEngine: [Pending] Importing
+[2025.04.25-16.44.22:654][873]LogStreaming: Display: FlushAsyncLoading(410): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.25-16.44.27:432][873]LogSlate: Window 'Message' being destroyed
+[2025.04.25-16.44.27:437][873]Message dialog closed, result: NoAll, title: Message, text: Are you sure you want to override asset 'Texture2D /Game/Characters/Knight/Guard_03__diffuse.Guard_03__diffuse'?
+[2025.04.25-16.44.27:477][876]LogStreaming: Display: FlushAsyncLoading(411): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.25-16.44.27:544][879]LogStreaming: Display: FlushAsyncLoading(412): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.25-16.44.27:552][880]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Knight/Strut_Walking_Anim.Strut_Walking_Anim (Required Memory Estimate: 0.47 MB)
+[2025.04.25-16.44.27:556][880]LogSkeletalMesh: Building Skeletal Mesh Strut_Walking...
+[2025.04.25-16.44.27:559][881]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Knight/Strut_Walking_Anim.Strut_Walking_Anim (Required Memory Estimate: 0.47 MB)
+[2025.04.25-16.44.27:566][881]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Knight/Strut_Walking_Anim.Strut_Walking_Anim, at AnimationSequence/ce3d21f05edf91e1703a03a5fbb233015407f728
+[2025.04.25-16.44.27:605][885]LogSkeletalMesh: Built Skeletal Mesh [0.05s] /Game/Characters/Knight/Strut_Walking.Strut_Walking
+[2025.04.25-16.44.27:631][885]LogChaosDD: Creating Chaos Debug Draw Scene for world World_9
+[2025.04.25-16.44.27:681][885]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.04.25-16.44.27:681][885]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.25-16.44.27:697][886]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2025.04.25-16.44.27:730][886]LogInterchangeEngine: Display: Interchange import completed [C:/Users/bat15/Downloads/Strut Walking.fbx]
+[2025.04.25-16.44.27:730][886]Interchange: Warning: [C:/Users/bat15/Downloads/Strut Walking.fbx : '', Texture2D] The option bReplaceExisting is false, we are not overriding the asset named 'Texture2D /Game/Characters/Knight/Guard_03__diffuse.Guard_03__diffuse'.
+[2025.04.25-16.44.27:730][886]Interchange: Warning: [C:/Users/bat15/Downloads/Strut Walking.fbx : '', Texture2D] The option bReplaceExisting is false, we are not overriding the asset named 'Texture2D /Game/Characters/Knight/Guard_03__normal.Guard_03__normal'.
+[2025.04.25-16.44.27:730][886]Interchange: Warning: [C:/Users/bat15/Downloads/Strut Walking.fbx : '', Texture2D] The option bReplaceExisting is false, we are not overriding the asset named 'Texture2D /Game/Characters/Knight/Guard_03__specular.Guard_03__specular'.
+[2025.04.25-16.44.27:730][886]Interchange: Warning: [C:/Users/bat15/Downloads/Strut Walking.fbx : 'Strut_Walking', SkeletalMesh] No smoothing group information was found for this mesh 'Guard03_Mesh' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.04.25-16.44.27:739][886]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.04.25-16.44.27:739][886]LogInterchangeEngine: [Success] Import Done
+[2025.04.25-16.44.27:943][887]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2025.04.25-16.44.27:943][887]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.007
+[2025.04.25-16.44.27:944][887]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Knight/Running_PhysicsAsset] ([1] browsable assets)...
+[2025.04.25-16.44.27:949][887]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Characters/Knight/Running_PhysicsAsset.Running_PhysicsAsset]
+[2025.04.25-16.44.27:949][887]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Running_PhysicsAsset]
+[2025.04.25-16.44.27:954][887]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Knight/Running_PhysicsAsset_Auto1
+[2025.04.25-16.44.27:954][887]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Running_PhysicsAsset_Auto1127611784500F9E2AAB1A4B0844EF988.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Autosaves/Game/Characters/Knight/Running_PhysicsAsset_Auto1.uasset'
+[2025.04.25-16.44.27:954][887]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Knight/Guard_03__diffuse] ([1] browsable assets)...
+[2025.04.25-16.44.27:955][887]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Characters/Knight/Guard_03__diffuse.Guard_03__diffuse]
+[2025.04.25-16.44.27:955][887]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Guard_03__diffuse]
+[2025.04.25-16.44.27:958][887]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Knight/Guard_03__diffuse_Auto1
+[2025.04.25-16.44.27:958][887]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Guard_03__diffuse_Auto133EB087E46EA6EAF118813B91C0A12F1.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Autosaves/Game/Characters/Knight/Guard_03__diffuse_Auto1.uasset'
+[2025.04.25-16.44.27:959][887]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Knight/Guard_03__normal] ([1] browsable assets)...
+[2025.04.25-16.44.27:959][887]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Characters/Knight/Guard_03__normal.Guard_03__normal]
+[2025.04.25-16.44.27:959][887]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Guard_03__normal]
+[2025.04.25-16.44.27:962][887]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Knight/Guard_03__normal_Auto1
+[2025.04.25-16.44.27:962][887]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Guard_03__normal_Auto1BF37A5974B34AB435DFF36B611B80C61.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Autosaves/Game/Characters/Knight/Guard_03__normal_Auto1.uasset'
+[2025.04.25-16.44.27:963][887]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Knight/Guard_03__specular] ([1] browsable assets)...
+[2025.04.25-16.44.27:964][887]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Characters/Knight/Guard_03__specular.Guard_03__specular]
+[2025.04.25-16.44.27:964][887]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Guard_03__specular]
+[2025.04.25-16.44.27:967][887]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Knight/Guard_03__specular_Auto1
+[2025.04.25-16.44.27:967][887]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Guard_03__specular_Auto1B762BA714A8EBF7A884FA4AF4800B6BC.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Autosaves/Game/Characters/Knight/Guard_03__specular_Auto1.uasset'
+[2025.04.25-16.44.27:967][887]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Knight/Running_Skeleton] ([1] browsable assets)...
+[2025.04.25-16.44.27:974][887]OBJ SavePackage:     Rendered thumbnail for [Skeleton /Game/Characters/Knight/Running_Skeleton.Running_Skeleton]
+[2025.04.25-16.44.27:974][887]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Running_Skeleton]
+[2025.04.25-16.44.27:975][887]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Knight/Running_Skeleton_Auto1
+[2025.04.25-16.44.27:975][887]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Running_Skeleton_Auto144994D0048FF11C9DED754BEB778CA1D.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Autosaves/Game/Characters/Knight/Running_Skeleton_Auto1.uasset'
+[2025.04.25-16.44.27:975][887]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Knight/Guard_03] ([1] browsable assets)...
+[2025.04.25-16.44.27:980][887]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Characters/Knight/Guard_03.Guard_03]
+[2025.04.25-16.44.27:981][887]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Guard_03]
+[2025.04.25-16.44.27:983][887]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Knight/Guard_03_Auto1
+[2025.04.25-16.44.27:983][887]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Guard_03_Auto1FDDAB8A84B3E9DA34F219382E164FAFF.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Autosaves/Game/Characters/Knight/Guard_03_Auto1.uasset'
+[2025.04.25-16.44.27:983][887]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Knight/Running] ([1] browsable assets)...
+[2025.04.25-16.44.27:989][887]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Characters/Knight/Running.Running]
+[2025.04.25-16.44.27:989][887]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Running]
+[2025.04.25-16.44.27:996][887]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Knight/Running_Auto1
+[2025.04.25-16.44.27:996][887]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Running_Auto14F124E10410F90F295AD8D9F6DBD508D.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Autosaves/Game/Characters/Knight/Running_Auto1.uasset'
+[2025.04.25-16.44.27:996][887]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Knight/Running_Anim] ([1] browsable assets)...
+[2025.04.25-16.44.28:001][887]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/Knight/Running_Anim.Running_Anim]
+[2025.04.25-16.44.28:001][887]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Running_Anim]
+[2025.04.25-16.44.28:005][887]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Knight/Running_Anim_Auto1
+[2025.04.25-16.44.28:005][887]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Running_Anim_Auto16527B3534F854AD7C40055805E07F40E.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Autosaves/Game/Characters/Knight/Running_Anim_Auto1.uasset'
+[2025.04.25-16.44.28:005][887]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Knight/Strut_Walking_PhysicsAsset] ([1] browsable assets)...
+[2025.04.25-16.44.28:010][887]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Characters/Knight/Strut_Walking_PhysicsAsset.Strut_Walking_PhysicsAsset]
+[2025.04.25-16.44.28:010][887]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Strut_Walking_PhysicsAsset]
+[2025.04.25-16.44.28:013][887]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Knight/Strut_Walking_PhysicsAsset_Auto1
+[2025.04.25-16.44.28:013][887]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Strut_Walking_PhysicsAsset_Auto17664F0A4440CA6D6D83CD7AD6346DCCF.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Autosaves/Game/Characters/Knight/Strut_Walking_PhysicsAsset_Auto1.uasset'
+[2025.04.25-16.44.28:014][887]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Knight/Strut_Walking] ([1] browsable assets)...
+[2025.04.25-16.44.28:014][887]LogChaosDD: Creating Chaos Debug Draw Scene for world World_10
+[2025.04.25-16.44.28:024][887]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Characters/Knight/Strut_Walking.Strut_Walking]
+[2025.04.25-16.44.28:024][887]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Strut_Walking]
+[2025.04.25-16.44.28:031][887]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Knight/Strut_Walking_Auto1
+[2025.04.25-16.44.28:031][887]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Strut_Walking_Auto1CA4AF2914ECE915FBC94EF8673EAB0BE.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Autosaves/Game/Characters/Knight/Strut_Walking_Auto1.uasset'
+[2025.04.25-16.44.28:031][887]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Knight/Strut_Walking_Anim] ([1] browsable assets)...
+[2025.04.25-16.44.28:037][887]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/Knight/Strut_Walking_Anim.Strut_Walking_Anim]
+[2025.04.25-16.44.28:037][887]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Strut_Walking_Anim]
+[2025.04.25-16.44.28:041][887]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Characters/Knight/Strut_Walking_Anim_Auto1
+[2025.04.25-16.44.28:041][887]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Strut_Walking_Anim_Auto12543BB61496DDA8709759AA336B3B22D.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Autosaves/Game/Characters/Knight/Strut_Walking_Anim_Auto1.uasset'
+[2025.04.25-16.44.28:041][887]LogFileHelpers: Auto-saving content packages took 0.097
+[2025.04.25-16.44.34:264][221]LogStreaming: Display: FlushAsyncLoading(413): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.25-16.44.34:310][221]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/bat15/Downloads/Castle Guard 02.fbx]
+[2025.04.25-16.44.35:836][221]LogSlate: Window 'Import Content' being destroyed
+[2025.04.25-16.44.35:857][221]LogInterchangeEngine: [Pending] Importing
+[2025.04.25-16.44.35:937][222]LogStreaming: Display: FlushAsyncLoading(414): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.25-16.44.38:463][222]LogSlate: Window 'Message' being destroyed
+[2025.04.25-16.44.38:468][222]Message dialog closed, result: NoAll, title: Message, text: Are you sure you want to override asset 'Texture2D /Game/Characters/Knight/Guard_03__diffuse.Guard_03__diffuse'?
+[2025.04.25-16.44.38:509][225]LogStreaming: Display: FlushAsyncLoading(415): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.25-16.44.38:566][228]LogStreaming: Display: FlushAsyncLoading(416): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.25-16.44.38:574][229]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/Characters/Knight/Castle_Guard_02_Anim.Castle_Guard_02_Anim (Required Memory Estimate: 0.12 MB)
+[2025.04.25-16.44.38:574][229]LogAnimationCompression: Display: Storing compressed animation data for /Game/Characters/Knight/Castle_Guard_02_Anim.Castle_Guard_02_Anim, at AnimationSequence/69ae32a407c2327b8399c636f316e6cd54e2688c
+[2025.04.25-16.44.38:580][229]LogSkeletalMesh: Building Skeletal Mesh Castle_Guard_02...
+[2025.04.25-16.44.38:628][234]LogSkeletalMesh: Built Skeletal Mesh [0.05s] /Game/Characters/Knight/Castle_Guard_02.Castle_Guard_02
+[2025.04.25-16.44.38:684][235]LogChaosDD: Creating Chaos Debug Draw Scene for world World_11
+[2025.04.25-16.44.38:731][235]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.04.25-16.44.38:731][235]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.25-16.44.38:745][236]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.04.25-16.44.38:757][236]LogInterchangeEngine: Display: Interchange import completed [C:/Users/bat15/Downloads/Castle Guard 02.fbx]
+[2025.04.25-16.44.38:757][236]Interchange: Warning: [C:/Users/bat15/Downloads/Castle Guard 02.fbx : '', Texture2D] The option bReplaceExisting is false, we are not overriding the asset named 'Texture2D /Game/Characters/Knight/Guard_03__diffuse.Guard_03__diffuse'.
+[2025.04.25-16.44.38:757][236]Interchange: Warning: [C:/Users/bat15/Downloads/Castle Guard 02.fbx : '', Texture2D] The option bReplaceExisting is false, we are not overriding the asset named 'Texture2D /Game/Characters/Knight/Guard_03__normal.Guard_03__normal'.
+[2025.04.25-16.44.38:757][236]Interchange: Warning: [C:/Users/bat15/Downloads/Castle Guard 02.fbx : '', Texture2D] The option bReplaceExisting is false, we are not overriding the asset named 'Texture2D /Game/Characters/Knight/Guard_03__specular.Guard_03__specular'.
+[2025.04.25-16.44.38:757][236]Interchange: Warning: [C:/Users/bat15/Downloads/Castle Guard 02.fbx : 'Castle_Guard_02', SkeletalMesh] No smoothing group information was found for this mesh 'Guard03_Mesh' in the FBX file. Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter before exporting the file.
+[2025.04.25-16.44.38:774][236]LogInterchangeEngine: [Pending] Importing - Operation completed.
+[2025.04.25-16.44.38:774][236]LogInterchangeEngine: [Success] Import Done
+[2025.04.25-16.44.38:841][238]LogChaosDD: Creating Chaos Debug Draw Scene for world World_12
