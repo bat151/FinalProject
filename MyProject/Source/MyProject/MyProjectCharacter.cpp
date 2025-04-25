@@ -1,4 +1,3 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
 
 #include "MyProjectCharacter.h"
 #include "Engine/LocalPlayer.h"
@@ -14,13 +13,13 @@
 DEFINE_LOG_CATEGORY(LogTemplateCharacter);
 
 //////////////////////////////////////////////////////////////////////////
-// AMyProjectCharacter
+// AanimationsCharacter
 
 AMyProjectCharacter::AMyProjectCharacter()
 {
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(42.f, 96.0f);
-		
+
 	// Don't rotate when the controller rotates. Let that just affect the camera.
 	bUseControllerRotationPitch = false;
 	bUseControllerRotationYaw = false;
@@ -52,6 +51,14 @@ AMyProjectCharacter::AMyProjectCharacter()
 
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
+
+	WalkSpeed = 200.f;
+	SprintSpeed = 500.f;
+
+	static ConstructorHelpers::FObjectFinder<UInputAction>InputActionAsset(TEXT("/Game/ThirdPerson/Input/Actions/IA_Sprint"));
+	if (InputActionAsset.Succeeded())
+		SprintAction = InputActionAsset.Object;
+
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -75,7 +82,7 @@ void AMyProjectCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInput
 {
 	// Set up action bindings
 	if (UEnhancedInputComponent* EnhancedInputComponent = Cast<UEnhancedInputComponent>(PlayerInputComponent)) {
-		
+
 		// Jumping
 		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Started, this, &ACharacter::Jump);
 		EnhancedInputComponent->BindAction(JumpAction, ETriggerEvent::Completed, this, &ACharacter::StopJumping);
@@ -85,6 +92,11 @@ void AMyProjectCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInput
 
 		// Looking
 		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AMyProjectCharacter::Look);
+
+		EnhancedInputComponent->BindAction(SprintAction, ETriggerEvent::Triggered, this, &AMyProjectCharacter::StartSprint); // for when shift is pressed
+		EnhancedInputComponent->BindAction(SprintAction, ETriggerEvent::Completed, this, &AMyProjectCharacter::StopSprint); // for when shift is released
+
+
 	}
 	else
 	{
@@ -105,7 +117,7 @@ void AMyProjectCharacter::Move(const FInputActionValue& Value)
 
 		// get forward vector
 		const FVector ForwardDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::X);
-	
+
 		// get right vector 
 		const FVector RightDirection = FRotationMatrix(YawRotation).GetUnitAxis(EAxis::Y);
 
@@ -127,3 +139,7 @@ void AMyProjectCharacter::Look(const FInputActionValue& Value)
 		AddControllerPitchInput(LookAxisVector.Y);
 	}
 }
+
+void AMyProjectCharacter::BeginPlay() { Super::BeginPlay(); GetCharacterMovement()->MaxWalkSpeed = WalkSpeed; }
+void AMyProjectCharacter::StartSprint() { GetCharacterMovement()->MaxWalkSpeed = SprintSpeed; }
+void AMyProjectCharacter::StopSprint() { GetCharacterMovement()->MaxWalkSpeed = WalkSpeed; }
