@@ -5,7 +5,22 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/StarterContent/Architecture/Floor_400x400.uasset"
+				"C:/Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Running_PhysicsAsset.uasset",
+				"C:/Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Guard_03__diffuse.uasset",
+				"C:/Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Guard_03__normal.uasset",
+				"C:/Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Guard_03__specular.uasset",
+				"C:/Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Running_Skeleton.uasset",
+				"C:/Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Guard_03.uasset",
+				"C:/Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Running.uasset",
+				"C:/Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Running_Anim.uasset",
+				"C:/Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Strut_Walking_PhysicsAsset.uasset",
+				"C:/Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Strut_Walking.uasset",
+				"C:/Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Strut_Walking_Anim.uasset",
+				"C:/Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Castle_Guard_02_PhysicsAsset.uasset",
+				"C:/Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Castle_Guard_02.uasset",
+				"C:/Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Castle_Guard_02_Anim.uasset",
+				"C:/Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/ThirdPerson/Blueprints/BlendSpaceKnight.uasset"
 			]
 		}
 	]

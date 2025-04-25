@@ -2026,3 +2026,347 @@ LogConfig: Set CVar [[r.VRS.ContrastAdaptiveShading:1]]
 [2025.04.25-16.44.38:774][236]LogInterchangeEngine: [Pending] Importing - Operation completed.
 [2025.04.25-16.44.38:774][236]LogInterchangeEngine: [Success] Import Done
 [2025.04.25-16.44.38:841][238]LogChaosDD: Creating Chaos Debug Draw Scene for world World_12
+[2025.04.25-16.45.29:783][568]LogShaderCompilers: Display: ================================================
+[2025.04.25-16.45.29:783][568]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.04.25-16.45.29:783][568]LogShaderCompilers: Display: Total job queries 11,669, among them cache hits 8 (0.07%), DDC hits 0 (0.00%), Duplicates 2,681 (22.98%)
+[2025.04.25-16.45.29:783][568]LogShaderCompilers: Display: Tracking 8,980 distinct input hashes that result in 8,478 distinct outputs (94.41%)
+[2025.04.25-16.45.29:783][568]LogShaderCompilers: Display: RAM used: 6.36 MiB of 1.60 GiB budget. Usage: 0.39%
+[2025.04.25-16.45.29:783][568]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.04.25-16.45.29:783][568]LogShaderCompilers: Display: Shaders Compiled: 8,980
+[2025.04.25-16.45.29:783][568]LogShaderCompilers: Display: Jobs assigned 8,980, completed 8,980 (100%)
+[2025.04.25-16.45.29:783][568]LogShaderCompilers: Display: Average time worker was idle: 10.90 s
+[2025.04.25-16.45.29:783][568]LogShaderCompilers: Display: Time job spent in pending queue: average 138.11 s, longest 274.44 s
+[2025.04.25-16.45.29:783][568]LogShaderCompilers: Display: Job execution time: average 3.71 s, max 49.14 s
+[2025.04.25-16.45.29:783][568]LogShaderCompilers: Display: Job life time (pending + execution): average 141.83 s, max 274.77
+[2025.04.25-16.45.29:783][568]LogShaderCompilers: Display: Shader code size: average 14.275 KiB, min 1.16 KiB, max 330.049 KiB
+[2025.04.25-16.45.29:783][568]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 295.52 s
+[2025.04.25-16.45.29:783][568]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.20%
+[2025.04.25-16.45.29:783][568]LogShaderCompilers: Display: Jobs were issued in 1,029 batches (only local compilation was used), average 8.73 jobs/batch
+[2025.04.25-16.45.29:783][568]LogShaderCompilers: Display: Average processing rate: 30.39 jobs/sec
+[2025.04.25-16.45.29:783][568]LogShaderCompilers: Display: Total thread time: 3,379.742 s
+[2025.04.25-16.45.29:783][568]LogShaderCompilers: Display: Total thread preprocess time: 93.411 s
+[2025.04.25-16.45.29:783][568]LogShaderCompilers: Display: Percentage time preprocessing: 2.76%
+[2025.04.25-16.45.29:783][568]LogShaderCompilers: Display: Effective parallelization: 11.44 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2025.04.25-16.45.29:784][568]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.04.25-16.45.29:784][568]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 14.11 sec, max 46.88 sec, min 0.84 sec)
+[2025.04.25-16.45.29:784][568]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 10.28 sec, max 10.28 sec, min 10.28 sec)
+[2025.04.25-16.45.29:784][568]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.27 sec, max 6.18 sec, min 3.27 sec)
+[2025.04.25-16.45.29:784][568]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 2.53 sec, max 5.13 sec, min 0.86 sec)
+[2025.04.25-16.45.29:784][568]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 1.97 sec, max 1.97 sec, min 1.97 sec)
+[2025.04.25-16.45.29:784][568]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.04.25-16.45.29:784][568]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 13.65% of total time (compiled  260 times, average 1.77 sec, max 5.90 sec, min 0.00 sec)
+[2025.04.25-16.45.29:784][568]LogShaderCompilers: Display:                                             FDeferredLightPS - 12.77% of total time (compiled  454 times, average 0.95 sec, max 2.27 sec, min 0.65 sec)
+[2025.04.25-16.45.29:784][568]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 11.27% of total time (compiled   27 times, average 14.11 sec, max 46.88 sec, min 0.84 sec)
+[2025.04.25-16.45.29:784][568]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 5.06% of total time (compiled  480 times, average 0.36 sec, max 0.78 sec, min 0.15 sec)
+[2025.04.25-16.45.29:784][568]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 3.60% of total time (compiled   72 times, average 1.69 sec, max 2.58 sec, min 1.07 sec)
+[2025.04.25-16.45.29:784][568]LogShaderCompilers: Display: === Material stats ===
+[2025.04.25-16.45.29:784][568]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.04.25-16.45.29:784][568]LogShaderCompilers: Display: Materials Translated:    136
+[2025.04.25-16.45.29:784][568]LogShaderCompilers: Display: Material Total Translate Time: 0.06 s
+[2025.04.25-16.45.29:784][568]LogShaderCompilers: Display: Material Translation Only: 0.03 s (49%)
+[2025.04.25-16.45.29:784][568]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.04.25-16.45.29:784][568]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.04.25-16.45.29:784][568]LogShaderCompilers: Display: ================================================
+[2025.04.25-16.47.08:058][446]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2025.04.25-16.47.08:062][446]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.25-16.47.08:111][446]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Knight/Running_PhysicsAsset] ([1] browsable assets)...
+[2025.04.25-16.47.08:111][446]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Running_PhysicsAsset]
+[2025.04.25-16.47.08:114][446]LogSavePackage: Moving output files for package: /Game/Characters/Knight/Running_PhysicsAsset
+[2025.04.25-16.47.08:114][446]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Running_PhysicsAssetAC39CEED4BFCEB29BC44BA9EE0144F06.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Running_PhysicsAsset.uasset'
+[2025.04.25-16.47.08:115][446]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Knight/Guard_03__diffuse] ([1] browsable assets)...
+[2025.04.25-16.47.08:115][446]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Guard_03__diffuse]
+[2025.04.25-16.47.08:128][446]LogSavePackage: Moving output files for package: /Game/Characters/Knight/Guard_03__diffuse
+[2025.04.25-16.47.08:128][446]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Guard_03__diffuse31865D414CCE715A42EF13976DE8A93D.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Guard_03__diffuse.uasset'
+[2025.04.25-16.47.08:130][446]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Knight/Guard_03__normal] ([1] browsable assets)...
+[2025.04.25-16.47.08:130][446]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Guard_03__normal]
+[2025.04.25-16.47.08:142][446]LogSavePackage: Moving output files for package: /Game/Characters/Knight/Guard_03__normal
+[2025.04.25-16.47.08:142][446]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Guard_03__normal38CD484E4D41239D64E8588BA7A2503D.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Guard_03__normal.uasset'
+[2025.04.25-16.47.08:143][446]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Knight/Guard_03__specular] ([1] browsable assets)...
+[2025.04.25-16.47.08:143][446]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Guard_03__specular]
+[2025.04.25-16.47.08:152][446]LogSavePackage: Moving output files for package: /Game/Characters/Knight/Guard_03__specular
+[2025.04.25-16.47.08:152][446]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Guard_03__specular50964B774CDE359310A8BBAF14204530.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Guard_03__specular.uasset'
+[2025.04.25-16.47.08:153][446]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Knight/Running_Skeleton] ([1] browsable assets)...
+[2025.04.25-16.47.08:153][446]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Running_Skeleton]
+[2025.04.25-16.47.08:153][446]LogSavePackage: Moving output files for package: /Game/Characters/Knight/Running_Skeleton
+[2025.04.25-16.47.08:153][446]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Running_SkeletonB29E70074550CA4CF3FD6593654237A9.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Running_Skeleton.uasset'
+[2025.04.25-16.47.08:154][446]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Knight/Guard_03] ([1] browsable assets)...
+[2025.04.25-16.47.08:154][446]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Guard_03]
+[2025.04.25-16.47.08:154][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Knight/Guard_03" FILE="../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Guard_03.uasset" SILENT=true
+[2025.04.25-16.47.08:156][446]LogSavePackage: Moving output files for package: /Game/Characters/Knight/Guard_03
+[2025.04.25-16.47.08:156][446]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Guard_03D1AB586349DD5D80DD673DB8990440DF.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Guard_03.uasset'
+[2025.04.25-16.47.08:157][446]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Knight/Running] ([1] browsable assets)...
+[2025.04.25-16.47.08:157][446]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Running]
+[2025.04.25-16.47.08:157][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Knight/Running" FILE="../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Running.uasset" SILENT=true
+[2025.04.25-16.47.08:162][446]LogSavePackage: Moving output files for package: /Game/Characters/Knight/Running
+[2025.04.25-16.47.08:162][446]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/RunningF2FA936B4916682CD8CFDE89923516BE.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Running.uasset'
+[2025.04.25-16.47.08:162][446]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Knight/Running_Anim] ([1] browsable assets)...
+[2025.04.25-16.47.08:162][446]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Running_Anim]
+[2025.04.25-16.47.08:162][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Knight/Running_Anim" FILE="../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Running_Anim.uasset" SILENT=true
+[2025.04.25-16.47.08:165][446]LogSavePackage: Moving output files for package: /Game/Characters/Knight/Running_Anim
+[2025.04.25-16.47.08:165][446]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Running_Anim052C446544BC7E93D7A10199D5FFFA5C.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Running_Anim.uasset'
+[2025.04.25-16.47.08:166][446]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Knight/Strut_Walking_PhysicsAsset] ([1] browsable assets)...
+[2025.04.25-16.47.08:166][446]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Strut_Walking_PhysicsAsset]
+[2025.04.25-16.47.08:168][446]LogSavePackage: Moving output files for package: /Game/Characters/Knight/Strut_Walking_PhysicsAsset
+[2025.04.25-16.47.08:168][446]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Strut_Walking_PhysicsAssetA0BB412E479EDDE7ADB2E1BB762B02C7.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Strut_Walking_PhysicsAsset.uasset'
+[2025.04.25-16.47.08:170][446]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Knight/Strut_Walking] ([1] browsable assets)...
+[2025.04.25-16.47.08:170][446]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Strut_Walking]
+[2025.04.25-16.47.08:170][446]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Characters/Knight/Strut_Walking" FILE="../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Strut_Walking.uasset" SILENT=true
+[2025.04.25-16.47.08:176][446]LogSavePackage: Moving output files for package: /Game/Characters/Knight/Strut_Walking
+[2025.04.25-16.47.08:176][446]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Strut_WalkingB1055CC74EAFC931993A10BDC8303C65.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Strut_Walking.uasset'
+[2025.04.25-16.47.08:176][446]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Characters/Knight/Strut_Walking_Anim] ([1] browsable assets)...
+[2025.04.25-16.47.08:176][446]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Strut_Walking_Anim]
+[2025.04.25-16.47.08:179][446]LogSavePackage: Moving output files for package: /Game/Characters/Knight/Strut_Walking_Anim
+[2025.04.25-16.47.08:179][446]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Strut_Walking_Anim8977BC34480828FB7C0B60B9A9D49F58.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Strut_Walking_Anim.uasset'
+[2025.04.25-16.47.08:180][446]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Knight/Castle_Guard_02_PhysicsAsset] ([1] browsable assets)...
+[2025.04.25-16.47.08:244][446]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/Characters/Knight/Castle_Guard_02_PhysicsAsset.Castle_Guard_02_PhysicsAsset]
+[2025.04.25-16.47.08:244][446]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Castle_Guard_02_PhysicsAsset]
+[2025.04.25-16.47.08:247][446]LogSavePackage: Moving output files for package: /Game/Characters/Knight/Castle_Guard_02_PhysicsAsset
+[2025.04.25-16.47.08:247][446]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Castle_Guard_02_PhysicsAssetF10711464F91FFEF7F1D9B8390C87835.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Castle_Guard_02_PhysicsAsset.uasset'
+[2025.04.25-16.47.08:248][446]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Knight/Castle_Guard_02] ([1] browsable assets)...
+[2025.04.25-16.47.08:256][446]OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh /Game/Characters/Knight/Castle_Guard_02.Castle_Guard_02]
+[2025.04.25-16.47.08:256][446]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Castle_Guard_02]
+[2025.04.25-16.47.08:262][446]LogSavePackage: Moving output files for package: /Game/Characters/Knight/Castle_Guard_02
+[2025.04.25-16.47.08:262][446]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Castle_Guard_0293827F674FAFF197062CEF9CB54FD2EE.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Castle_Guard_02.uasset'
+[2025.04.25-16.47.08:263][446]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Knight/Castle_Guard_02_Anim] ([1] browsable assets)...
+[2025.04.25-16.47.08:270][446]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Characters/Knight/Castle_Guard_02_Anim.Castle_Guard_02_Anim]
+[2025.04.25-16.47.08:270][446]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Knight/Castle_Guard_02_Anim]
+[2025.04.25-16.47.08:274][446]LogSavePackage: Moving output files for package: /Game/Characters/Knight/Castle_Guard_02_Anim
+[2025.04.25-16.47.08:274][446]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Castle_Guard_02_AnimC5283E0E4FA43F527402D989C20DA112.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Castle_Guard_02_Anim.uasset'
+[2025.04.25-16.47.08:278][446]LogFileHelpers: InternalPromptForCheckoutAndSave took 216.359 ms (total: 1.00 sec)
+[2025.04.25-16.47.08:310][446]LogContentValidation: Display: Starting to validate 14 assets
+[2025.04.25-16.47.08:310][446]LogContentValidation: Enabled validators:
+[2025.04.25-16.47.08:310][446]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.25-16.47.08:310][446]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.25-16.47.08:310][446]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.25-16.47.08:310][446]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.25-16.47.08:310][446]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.25-16.47.08:310][446]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.25-16.47.08:310][446]AssetCheck: /Game/Characters/Knight/Running_PhysicsAsset Validating asset
+[2025.04.25-16.47.08:310][446]AssetCheck: /Game/Characters/Knight/Guard_03__diffuse Validating asset
+[2025.04.25-16.47.08:310][446]AssetCheck: /Game/Characters/Knight/Guard_03__normal Validating asset
+[2025.04.25-16.47.08:310][446]AssetCheck: /Game/Characters/Knight/Guard_03__specular Validating asset
+[2025.04.25-16.47.08:310][446]AssetCheck: /Game/Characters/Knight/Running_Skeleton Validating asset
+[2025.04.25-16.47.08:310][446]AssetCheck: /Game/Characters/Knight/Guard_03 Validating asset
+[2025.04.25-16.47.08:310][446]AssetCheck: /Game/Characters/Knight/Running Validating asset
+[2025.04.25-16.47.08:310][446]AssetCheck: /Game/Characters/Knight/Running_Anim Validating asset
+[2025.04.25-16.47.08:310][446]AssetCheck: /Game/Characters/Knight/Strut_Walking_PhysicsAsset Validating asset
+[2025.04.25-16.47.08:310][446]AssetCheck: /Game/Characters/Knight/Strut_Walking Validating asset
+[2025.04.25-16.47.08:310][446]AssetCheck: /Game/Characters/Knight/Strut_Walking_Anim Validating asset
+[2025.04.25-16.47.08:310][446]AssetCheck: /Game/Characters/Knight/Castle_Guard_02_PhysicsAsset Validating asset
+[2025.04.25-16.47.08:310][446]AssetCheck: /Game/Characters/Knight/Castle_Guard_02 Validating asset
+[2025.04.25-16.47.08:310][446]AssetCheck: /Game/Characters/Knight/Castle_Guard_02_Anim Validating asset
+[2025.04.25-16.47.14:797][ 75]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.25-16.47.14:801][ 75]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.25-16.47.14:801][ 75]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.04.25-16.47.14:805][ 75]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 3.354 ms
+[2025.04.25-16.47.14:807][ 75]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.25-16.47.14:813][ 75]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.04.25-16.47.14:813][ 75]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2025.04.25-16.47.14:814][ 75]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.25-16.47.14:818][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004852s)
+[2025.04.25-16.47.14:818][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.004898s)
+[2025.04.25-16.47.14:826][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2025.04.25-16.47.14:827][ 75]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.04.25-16.47.14:829][ 75]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.25-16.47.14:829][ 75]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.25-16.47.14:829][ 75]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.04.25-16.47.14:829][ 75]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.04.25-16.47.14:831][ 75]LogWorldPartition: Display: WorldPartition initialize took 1.508 ms (total: 46.503 ms)
+[2025.04.25-16.47.14:831][ 75]LogPlayLevel: PIE: World Init took: (0.003371s)
+[2025.04.25-16.47.14:831][ 75]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.04.25-16.47.14:831][ 75]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.25-16.47.14:831][ 75]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.25-16.47.14:831][ 75]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.25-16.47.14:831][ 75]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.25-16.47.14:831][ 75]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.25-16.47.14:831][ 75]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.04.25-16.47.14:831][ 75]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.25-16.47.14:831][ 75]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.25-16.47.14:831][ 75]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.25-16.47.14:831][ 75]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.25-16.47.14:831][ 75]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.25-16.47.14:833][ 75]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.25-16.47.14:873][ 75]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.04.25-16.47.14:873][ 75]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.25-16.47.14:873][ 75]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.25-16.47.14:873][ 75]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.25-16.47.14:874][ 75]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.04.25-16.47.14:874][ 75]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.04.25-16.47.14:876][ 75]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.04.25-16.47.14:876][ 75]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.04.25-16.47.14:876][ 75]LogInit: FAudioDevice initialized with ID 2.
+[2025.04.25-16.47.14:876][ 75]LogAudio: Display: Audio Device (ID: 2) registered with world 'ThirdPersonMap'.
+[2025.04.25-16.47.14:876][ 75]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.04.25-16.47.14:879][ 75]LogLoad: Game class is 'MyProjectGameMode'
+[2025.04.25-16.47.14:881][ 75]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.04.25-12.47.14
+[2025.04.25-16.47.14:881][ 75]LogWorld: Bringing up level for play took: 0.001755
+[2025.04.25-16.47.14:883][ 75]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2025.04.25-16.47.14:907][ 75]PIE: Server logged in
+[2025.04.25-16.47.14:908][ 75]PIE: Play in editor total start time 0.107 seconds.
+[2025.04.25-16.47.29:853][282]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.25-16.47.29:853][282]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.04.25-16.47.29:853][282]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.04.25-16.47.29:854][282]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.25-16.47.29:854][282]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.04.25-16.47.29:857][282]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.25-16.47.29:860][282]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.25-16.47.29:866][282]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.25-16.47.29:866][282]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.04.25-16.47.29:866][282]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.04.25-16.47.29:868][282]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.04.25-16.47.29:874][282]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.04.25-16.47.29:921][284]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2025.04.25-16.47.48:951][155]LogSlate: Window 'Pick Skeleton' being destroyed
+[2025.04.25-16.47.48:957][155]LogContentBrowser: Deferred new asset file creation: NewBlendSpace
+[2025.04.25-16.47.48:961][155]LogContentBrowser: Creating deferred item: NewBlendSpace
+[2025.04.25-16.47.48:967][156]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlendSpace).
+[2025.04.25-16.47.51:300][353]LogContentBrowser: Attempting asset rename: NewBlendSpace -> NewBlendSpace
+[2025.04.25-16.47.51:302][353]LogContentBrowser: End creating deferred item NewBlendSpace
+[2025.04.25-16.47.51:312][353]LogChaosDD: Creating Chaos Debug Draw Scene for world World_13
+[2025.04.25-16.47.54:118][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2025.04.25-16.47.55:570][570]LogSlate: Window 'Delete Assets' being destroyed
+[2025.04.25-16.47.55:585][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2025.04.25-16.47.55:594][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2025.04.25-16.47.55:602][570]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2025.04.25-16.48.12:567][361]LogSlate: Window 'Pick Skeleton' being destroyed
+[2025.04.25-16.48.12:573][361]LogContentBrowser: Deferred new asset file creation: NewBlendSpace1D
+[2025.04.25-16.48.12:577][361]LogContentBrowser: Creating deferred item: NewBlendSpace1D
+[2025.04.25-16.48.12:583][362]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlendSpace1D).
+[2025.04.25-16.48.22:387][186]LogContentBrowser: Attempting asset rename: NewBlendSpace1D -> BlendSpaceKnight
+[2025.04.25-16.48.22:387][186]LogContentBrowser: End creating deferred item NewBlendSpace1D
+[2025.04.25-16.48.23:797][292]LogAssetEditorSubsystem: Opening Asset editor for BlendSpace1D /Game/ThirdPerson/Blueprints/BlendSpaceKnight.BlendSpaceKnight
+[2025.04.25-16.48.23:812][292]LogChaosDD: Creating Chaos Debug Draw Scene for world World_14
+[2025.04.25-16.48.23:818][292]LogStreaming: Display: FlushAsyncLoading(417): 1 QueuedPackages, 0 AsyncPackages
+[2025.04.25-16.48.23:827][292]LogStaticMesh: Display: Building static mesh Sphere_inversenormals (Required Memory Estimate: 1.522745 MB)...
+[2025.04.25-16.48.23:835][292]LogStaticMesh: Built static mesh [0.01s] /Engine/EditorMeshes/AssetViewer/Sphere_inversenormals.Sphere_inversenormals
+[2025.04.25-16.48.23:843][292]LogStaticMesh: Display: Building static mesh Floor_Mesh (Required Memory Estimate: 0.022237 MB)...
+[2025.04.25-16.48.23:844][292]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/AssetViewer/Floor_Mesh.Floor_Mesh
+[2025.04.25-16.48.23:848][292]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_14:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2025.04.25-16.48.24:145][292]LogChaosDD: Creating Chaos Debug Draw Scene for world World_15
+[2025.04.25-16.48.24:370][292]LogSlate: Took 0.006017 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2025.04.25-16.48.27:214][460]LogSlate: Window 'BlendSpaceKnight' being destroyed
+[2025.04.25-16.48.29:783][763]LogShaderCompilers: Display: ================================================
+[2025.04.25-16.48.29:783][763]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.04.25-16.48.29:783][763]LogShaderCompilers: Display: Total job queries 11,687, among them cache hits 14 (0.12%), DDC hits 0 (0.00%), Duplicates 2,681 (22.94%)
+[2025.04.25-16.48.29:783][763]LogShaderCompilers: Display: Tracking 8,992 distinct input hashes that result in 8,486 distinct outputs (94.37%)
+[2025.04.25-16.48.29:783][763]LogShaderCompilers: Display: RAM used: 6.36 MiB of 1.60 GiB budget. Usage: 0.39%
+[2025.04.25-16.48.29:783][763]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.04.25-16.48.29:783][763]LogShaderCompilers: Display: Shaders Compiled: 8,992
+[2025.04.25-16.48.29:783][763]LogShaderCompilers: Display: Jobs assigned 8,992, completed 8,992 (100%)
+[2025.04.25-16.48.29:783][763]LogShaderCompilers: Display: Average time worker was idle: 13.22 s
+[2025.04.25-16.48.29:783][763]LogShaderCompilers: Display: Time job spent in pending queue: average 137.93 s, longest 274.44 s
+[2025.04.25-16.48.29:783][763]LogShaderCompilers: Display: Job execution time: average 3.71 s, max 49.14 s
+[2025.04.25-16.48.29:783][763]LogShaderCompilers: Display: Job life time (pending + execution): average 141.64 s, max 274.77
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display: Shader code size: average 14.268 KiB, min 1.16 KiB, max 330.049 KiB
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 297.70 s
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.20%
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display: Jobs were issued in 1,041 batches (only local compilation was used), average 8.64 jobs/batch
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display: Average processing rate: 30.20 jobs/sec
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display: Total thread time: 3,385.166 s
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display: Total thread preprocess time: 93.587 s
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display: Percentage time preprocessing: 2.76%
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display: Effective parallelization: 11.37 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display:                                          FTSRRejectShadingCS (compiled   27 times, average 14.11 sec, max 46.88 sec, min 0.84 sec)
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display:                                               FPathTracingRG (compiled    1 times, average 10.28 sec, max 10.28 sec, min 10.28 sec)
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.27 sec, max 6.18 sec, min 3.27 sec)
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled   32 times, average 2.53 sec, max 5.13 sec, min 0.86 sec)
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled    1 times, average 1.97 sec, max 1.97 sec, min 1.97 sec)
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display:                                        FMicropolyRasterizeCS - 13.63% of total time (compiled  260 times, average 1.77 sec, max 5.90 sec, min 0.00 sec)
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display:                                             FDeferredLightPS - 12.75% of total time (compiled  454 times, average 0.95 sec, max 2.27 sec, min 0.65 sec)
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display:                                          FTSRRejectShadingCS - 11.26% of total time (compiled   27 times, average 14.11 sec, max 46.88 sec, min 0.84 sec)
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display:                              FVolumetricFogLightScatteringCS - 5.05% of total time (compiled  480 times, average 0.36 sec, max 0.78 sec, min 0.15 sec)
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display:                                      FGenerateLightSamplesCS - 3.60% of total time (compiled   72 times, average 1.69 sec, max 2.58 sec, min 1.07 sec)
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display: === Material stats ===
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display: Materials Translated:    139
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display: Material Total Translate Time: 0.07 s
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display: Material Translation Only: 0.03 s (43%)
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display: Material Cache Hits: 0 (0%)
+[2025.04.25-16.48.29:784][763]LogShaderCompilers: Display: ================================================
+[2025.04.25-16.49.24:112][ 63]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.25-16.49.24:146][ 63]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BlendSpaceKnight] ([1] browsable assets)...
+[2025.04.25-16.49.24:152][ 63]OBJ SavePackage:     Rendered thumbnail for [BlendSpace1D /Game/ThirdPerson/Blueprints/BlendSpaceKnight.BlendSpaceKnight]
+[2025.04.25-16.49.24:152][ 63]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BlendSpaceKnight]
+[2025.04.25-16.49.24:153][ 63]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BlendSpaceKnight
+[2025.04.25-16.49.24:153][ 63]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/BlendSpaceKnightD62952F2448F91A68C134E96709C43E0.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/ThirdPerson/Blueprints/BlendSpaceKnight.uasset'
+[2025.04.25-16.49.24:164][ 63]LogFileHelpers: InternalPromptForCheckoutAndSave took 51.886 ms (total: 1.05 sec)
+[2025.04.25-16.49.24:211][ 63]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.25-16.49.24:211][ 63]LogContentValidation: Enabled validators:
+[2025.04.25-16.49.24:211][ 63]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.25-16.49.24:211][ 63]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.25-16.49.24:211][ 63]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.25-16.49.24:211][ 63]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.25-16.49.24:211][ 63]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.25-16.49.24:211][ 63]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.25-16.49.24:211][ 63]AssetCheck: /Game/ThirdPerson/Blueprints/BlendSpaceKnight Validating asset
+[2025.04.25-16.49.28:044][519]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.25-16.49.28:095][519]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Blueprints/BlendSpaceKnight] ([1] browsable assets)...
+[2025.04.25-16.49.28:095][519]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BlendSpaceKnight]
+[2025.04.25-16.49.28:096][519]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BlendSpaceKnight
+[2025.04.25-16.49.28:096][519]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/BlendSpaceKnight1F3F023B40BE464DF7B7B6B033CAC555.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/ThirdPerson/Blueprints/BlendSpaceKnight.uasset'
+[2025.04.25-16.49.28:101][519]LogFileHelpers: InternalPromptForCheckoutAndSave took 56.390 ms (total: 1.11 sec)
+[2025.04.25-16.49.28:145][519]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.25-16.49.28:145][519]LogContentValidation: Enabled validators:
+[2025.04.25-16.49.28:145][519]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.25-16.49.28:145][519]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.25-16.49.28:145][519]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.25-16.49.28:145][519]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.25-16.49.28:145][519]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.25-16.49.28:145][519]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.25-16.49.28:145][519]AssetCheck: /Game/ThirdPerson/Blueprints/BlendSpaceKnight Validating asset
+[2025.04.25-16.49.29:917][728]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.25-16.49.29:962][728]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Blueprints/BlendSpaceKnight] ([1] browsable assets)...
+[2025.04.25-16.49.29:962][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BlendSpaceKnight]
+[2025.04.25-16.49.29:963][728]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BlendSpaceKnight
+[2025.04.25-16.49.29:963][728]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/BlendSpaceKnightBE35F8234A2AC607DDFBAF9ABFDD9686.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/ThirdPerson/Blueprints/BlendSpaceKnight.uasset'
+[2025.04.25-16.49.29:967][728]LogFileHelpers: InternalPromptForCheckoutAndSave took 48.621 ms (total: 1.15 sec)
+[2025.04.25-16.49.30:012][728]LogContentValidation: Display: Starting to validate 1 assets
+[2025.04.25-16.49.30:012][728]LogContentValidation: Enabled validators:
+[2025.04.25-16.49.30:012][728]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.04.25-16.49.30:012][728]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.04.25-16.49.30:012][728]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.04.25-16.49.30:012][728]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.04.25-16.49.30:012][728]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.04.25-16.49.30:012][728]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.04.25-16.49.30:012][728]AssetCheck: /Game/ThirdPerson/Blueprints/BlendSpaceKnight Validating asset
+[2025.04.25-16.49.56:449][405]LogSlate: External Image Picker: DecompressImage failed
+[2025.04.25-16.49.58:022][507]LogSlate: Window 'Project Settings' being destroyed
+[2025.04.25-16.49.58:054][507]LogSlate: Window 'Project Settings' being destroyed
+[2025.04.25-16.50.27:196][579]LogHttp: Warning: 00000B94DAFFE000: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.04.25-16.50.27:196][579]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 0 (Found bundle for host: 0xb943d040750 [serially])
+[2025.04.25-16.50.27:196][579]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.04.25-16.50.27:196][579]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.04.25-16.50.27:196][579]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 3 (TLSv1.3 (IN), TLS alert, close notify (256):)
+[2025.04.25-16.50.27:196][579]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.04.25-16.50.27:196][579]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2025.04.25-16.50.27:196][579]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 6 (Closing connection)
+[2025.04.25-16.50.27:196][579]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 7 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.04.25-16.50.27:196][579]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B20E208D6-4AB8-9D44-297F-90AF81E1EFA7%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.1-38445549%2B%2B%2BUE5%2BRelease-5.5&UserID=0c101c694382812f911a5cb017cb745a%7C%7C8c375ba5-0f92-45c4-99dc-2a80b055b6f8&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.04.25-16.50.27:196][580]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 9 (  Trying 34.206.174.197:443...)
+[2025.04.25-16.50.27:196][580]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (34.206.174.197) port 443)
+[2025.04.25-16.50.27:196][580]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2025.04.25-16.50.27:196][580]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 12 (SSL reusing session ID)
+[2025.04.25-16.50.27:196][580]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.04.25-16.50.27:196][580]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.04.25-16.50.27:196][580]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.04.25-16.50.27:196][580]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 16 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.04.25-16.50.27:196][580]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.04.25-16.50.27:196][580]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 18 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.04.25-16.50.27:198][580]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 19 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.04.25-16.50.27:198][580]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 20 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.04.25-16.50.27:198][580]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 21 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.04.25-16.50.27:198][580]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 22 (ALPN: server accepted http/1.1)
+[2025.04.25-16.50.27:198][580]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 23 (Server certificate:)
+[2025.04.25-16.50.27:198][580]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 24 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.04.25-16.50.27:198][580]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 25 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.04.25-16.50.27:198][580]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 26 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.04.25-16.50.27:198][580]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 27 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.04.25-16.50.27:198][580]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 28 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.04.25-16.50.27:198][580]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 29 ( SSL certificate verify ok.)
+[2025.04.25-16.50.27:198][580]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 30 (using HTTP/1.1)
+[2025.04.25-16.50.27:198][580]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 31 (necessary data rewind wasn't possible)
+[2025.04.25-16.50.27:198][580]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 32 (Closing connection)
+[2025.04.25-16.50.27:198][580]LogHttp: Warning: 00000B94DAFFE000: libcurl info message cache 33 (TLSv1.3 (OUT), TLS alert, close notify (256):)
