@@ -21,7 +21,9 @@
 				"C:/Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Castle_Guard_02.uasset",
 				"C:/Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/Characters/Knight/Castle_Guard_02_Anim.uasset",
 				"C:/Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/ThirdPerson/Blueprints/BlendSpaceKnight.uasset",
-				"C:/Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset"
+				"C:/Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"C:/Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/ThirdPerson/Blueprints/ABP_Knight.uasset",
+				"C:/Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/ThirdPerson/Input/IMC_Default.uasset"
 			]
 		}
 	]
