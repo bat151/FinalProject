@@ -281,3 +281,15 @@ Using Unreal Build Accelerator local executor to run 11 action(s)
 ---- Starting trace: 250430_111505 ----
 UbaSessionServer - Disable remote execution (remote sessions will finish current processes)
 ------ Building 11 action(s) started ------
+LogInit: Warning: Still incompatible or missing module: MyProject
+LogCore: Engine exit requested (reason: EngineExit() was called)
+LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: )...
+LogAudio: Display: Audio Device Manager Shutdown
+LogExit: Preparing to exit.
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogXGEController: Cleaning working directory: C:/Users/bat15/AppData/Local/Temp/UnrealXGEWorkingDir/
+LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+LogPakFile: Destroying PakPlatformFile
+LogExit: Exiting.
+Log file closed, 04/30/25 11:15:26
