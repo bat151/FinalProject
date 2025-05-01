@@ -1904,3 +1904,111 @@ LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
 [2025.05.01-17.21.27:793][915]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
 [2025.05.01-17.21.27:799][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
 [2025.05.01-17.21.27:845][916]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 0 (Found bundle for host: 0x81bb4040cf0 [serially])
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 3 (TLSv1.3 (IN), TLS alert, close notify (256):)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 6 (Closing connection)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 7 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCF4BA2AD-4A8F-6884-1036-FFB18207A66D%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.1-38445549%2B%2B%2BUE5%2BRelease-5.5&UserID=2d62441e46f9255344053e9621b8945e%7C%7C8c375ba5-0f92-45c4-99dc-2a80b055b6f8&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 9 (  Trying 54.87.151.208:443...)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (54.87.151.208) port 443)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 12 (SSL reusing session ID)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 16 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 18 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 19 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 20 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 21 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 22 (ALPN: server accepted http/1.1)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 23 (Server certificate:)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 24 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 25 ( start date: Feb  2 00:00:00 2025 GMT)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 26 ( expire date: Mar  3 23:59:59 2026 GMT)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 27 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 28 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 29 ( SSL certificate verify ok.)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 30 (using HTTP/1.1)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 31 (necessary data rewind wasn't possible)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 32 (Closing connection)
+[2025.05.01-17.23.27:678][686]LogHttp: Warning: 0000081C55CB2A00: libcurl info message cache 33 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2025.05.01-17.26.40:751][968]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2025.05.01-17.26.40:758][968]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Maps/ThirdPersonMap_Auto3
+[2025.05.01-17.26.40:758][968]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/ThirdPersonMap_Auto3A46B07B44B03720525FBB2AA1197AE5B.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Autosaves/Game/ThirdPerson/Maps/ThirdPersonMap_Auto3.umap'
+[2025.05.01-17.26.40:761][968]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3_Auto3
+[2025.05.01-17.26.40:761][968]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/SWSI13675DVYIZ0N4NF7Y3_Auto36B58931642E63CD83FF667BA7D7DDABB.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Autosaves/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3_Auto3.uasset'
+[2025.05.01-17.26.40:764][968]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/ThirdPerson/Maps/ThirdPersonMap' took 0.026
+[2025.05.01-17.26.40:764][968]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.026
+[2025.05.01-17.34.25:163][767]LogToolMenus: Warning: Menu item not found: 'OpenMarketplace' for insert: 'ContentBrowser'
+[2025.05.01-17.34.30:979][243]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2025.05.01-17.34.30:979][243]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2025.05.01-17.34.34:239][486]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2025.05.01-17.34.34:240][486]LogEditorActor: Deleted 0 Actors (0.022 secs)
+[2025.05.01-17.34.34:244][486]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2025.05.01-17.34.34:244][486]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.PointLight
+[2025.05.01-17.34.36:512][663]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.05.01-17.34.36:515][663]LogContentBundle: [ThirdPersonMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.05.01-17.34.36:515][663]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2025.05.01-17.34.36:517][663]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1.619 ms (total: 5.812 ms)
+[2025.05.01-17.34.36:517][663]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.05.01-17.34.36:541][663]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.05.01-17.34.36:544][663]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003117s)
+[2025.05.01-17.34.36:544][663]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.003152s)
+[2025.05.01-17.34.36:551][663]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2025.05.01-17.34.36:552][663]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2025.05.01-17.34.36:553][663]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.05.01-17.34.36:554][663]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.05.01-17.34.36:554][663]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2025.05.01-17.34.36:554][663]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2025.05.01-17.34.36:554][663]LogWorldPartition: Display: WorldPartition initialize took 932 us (total: 49.629 ms)
+[2025.05.01-17.34.36:554][663]LogPlayLevel: PIE: World Init took: (0.002172s)
+[2025.05.01-17.34.36:555][663]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.05.01-17.34.36:555][663]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.05.01-17.34.36:555][663]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.05.01-17.34.36:555][663]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.05.01-17.34.36:555][663]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.05.01-17.34.36:555][663]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.05.01-17.34.36:555][663]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.05.01-17.34.36:555][663]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.05.01-17.34.36:555][663]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.05.01-17.34.36:555][663]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.05.01-17.34.36:555][663]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.05.01-17.34.36:555][663]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.05.01-17.34.36:557][663]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.05.01-17.34.36:595][663]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.05.01-17.34.36:595][663]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.05.01-17.34.36:595][663]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.05.01-17.34.36:595][663]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.05.01-17.34.36:596][663]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.05.01-17.34.36:596][663]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.05.01-17.34.36:597][663]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.05.01-17.34.36:597][663]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.05.01-17.34.36:597][663]LogInit: FAudioDevice initialized with ID 4.
+[2025.05.01-17.34.36:597][663]LogAudio: Display: Audio Device (ID: 4) registered with world 'ThirdPersonMap'.
+[2025.05.01-17.34.36:597][663]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.05.01-17.34.36:599][663]LogLoad: Game class is 'MyProjectGameMode'
+[2025.05.01-17.34.36:600][663]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 0) at 2025.05.01-13.34.36
+[2025.05.01-17.34.36:600][663]LogWorld: Bringing up level for play took: 0.001186
+[2025.05.01-17.34.36:601][663]LogOnline: OSS: Created online subsystem instance for: :Context_5
+[2025.05.01-17.34.36:604][663]PIE: Server logged in
+[2025.05.01-17.34.36:604][663]PIE: Play in editor total start time 0.09 seconds.
+[2025.05.01-17.34.43:511][201]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.01-17.34.43:512][201]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2025.05.01-17.34.43:512][201]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.05.01-17.34.43:512][201]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.01-17.34.43:512][201]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2025.05.01-17.34.43:515][201]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.05.01-17.34.43:516][201]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.01-17.34.43:525][201]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.05.01-17.34.43:525][201]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.05.01-17.34.43:525][201]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.05.01-17.34.43:527][201]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.05.01-17.34.43:531][201]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2025.05.01-17.34.43:606][203]LogPlayLevel: Display: Destroying online subsystem :Context_5
