@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\bat15\\documents\\github\\finalproject\\myproject\\source\\myproject\\bananapickup.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\bat15\\documents\\github\\finalproject\\myproject\\intermediate\\build\\win64\\x64\\myprojecteditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\bat15\\documents\\github\\finalproject\\myproject\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\myproject\\definitions.myproject.h",
+            "c:\\users\\bat15\\documents\\github\\finalproject\\myproject\\source\\myproject\\bananapickup.h",
+            "c:\\users\\bat15\\documents\\github\\finalproject\\myproject\\intermediate\\build\\win64\\unrealeditor\\inc\\myproject\\uht\\bananapickup.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
