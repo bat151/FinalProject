@@ -33,6 +33,12 @@
     <Filter Include="Source\MyProject">
       <UniqueIdentifier>{E24959B1-EBAF-399D-9D3A-65ADD2D94AF5}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\MyProject\BananaPickup.cpp">
+      <Filter>Source\MyProject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MyProject\BananaPickup.h">
+      <Filter>Source\MyProject</Filter>
+    </ClCompile>
     <None Include="..\..\Source\MyProject\MyProject.Build.cs">
       <Filter>Source\MyProject</Filter>
     </None>

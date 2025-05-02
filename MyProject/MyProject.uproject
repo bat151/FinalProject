@@ -1,13 +1,16 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{7D245B93-4680-1B8A-C87B-63BE2C81D441}",
+	"EngineAssociation": "{22AA5BD2-4257-F409-3E3C-3194B7C16F40}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "MyProject",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [
