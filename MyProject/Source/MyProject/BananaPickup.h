@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "GameFramework/Character.h"
 #include "BananaPickup.generated.h"
 
 UCLASS()
@@ -15,9 +16,18 @@ public:
 	// Sets default values for this actor's properties
 	ABananaPickup();
 
+	UPROPERTY(EditAnywhere, Category = "Banana")
+	float Score = 1;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	UStaticMeshComponent* _StaticMesh;
+
+	UFUNCTION()
+	void OnBananaBeginOverlap(AActor* OverlappedActor, AActor* OtherActor);
 
 public:	
 	// Called every frame

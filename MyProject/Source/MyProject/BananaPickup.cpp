@@ -15,6 +15,10 @@ ABananaPickup::ABananaPickup()
 void ABananaPickup::BeginPlay()
 {
 	Super::BeginPlay();
+
+	if (HasAuthority()) {
+		OnActorBeginOverlap.AddDynamic(this, &ABananaPickup::OnBananaBeginOverlap);
+	}
 	
 }
 
@@ -22,6 +26,13 @@ void ABananaPickup::BeginPlay()
 void ABananaPickup::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	FQuat rotQuat = FQuat(FRotator(0.0f, 300.0f * DeltaTime, 0.0f));
+	AddActorLocalRotation(rotQuat);
 
+}
+
+void ABananaPickup::OnBananaBeginOverlap(AActor* OverlappedActor, AActor* OtherActor) {
+	SetActorEnableCollision(false);
+	SetActorHiddenInGame(true);
 }
 
