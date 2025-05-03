@@ -2819,3 +2819,202 @@ LogInit: Object subsystem initialized
 [2025.05.03-21.57.41:462][909]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2025.05.03-21.57.41:465][909]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
 [2025.05.03-21.57.41:552][910]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2025.05.03-21.58.09:533][658]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2025.05.03-21.58.10:737][658]LogSlate: Window 'Save Content' being destroyed
+[2025.05.03-21.58.10:755][658]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.03-21.58.10:847][658]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2025.05.03-21.58.10:880][658]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Maps/ThirdPersonMap
+[2025.05.03-21.58.10:880][658]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/ThirdPersonMap94B96C944E842D42665D43B389575296.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/ThirdPerson/Maps/ThirdPersonMap.umap'
+[2025.05.03-21.58.10:885][658]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/HL/Y7QVJ6ZSCXIYUWD2ZDL9ZD
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/F3/WFHAGMCICTCS9JJHS7O5O1
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/VJ/VHUNSHONNJWAX2MU5N6SO5
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/ZZ/PZDVY448AD12XV8GY65M1G
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/5S/7YB35H5ZYILLDBXLZYQXWQ
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HD/YGWG526U3PVQLUW6UL7TSG
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/H4/CIFXXJF76WRQK2FCZUE0G2
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/ZH/AI7JIJNU6O55WB2D37R76D
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/9Q/1VVP2L1KWX8PYEU906N1E5
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/6D/VXISTTGJUH55XGXHYIIGTG
+[2025.05.03-21.58.10:885][658]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.05.03-21.58.10:886][658]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/HL/Y7QVJ6ZSCXIYUWD2ZDL9ZD
+[2025.05.03-21.58.10:886][658]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Y7QVJ6ZSCXIYUWD2ZDL9ZD11EA4B804BE12292C933EBA10C90D26F.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/HL/Y7QVJ6ZSCXIYUWD2ZDL9ZD.uasset'
+[2025.05.03-21.58.10:888][658]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3
+[2025.05.03-21.58.10:888][658]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/SWSI13675DVYIZ0N4NF7Y3C93C78AC46605B83CF3971ACB66EF393.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset'
+[2025.05.03-21.58.10:889][658]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/F3/WFHAGMCICTCS9JJHS7O5O1
+[2025.05.03-21.58.10:889][658]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/WFHAGMCICTCS9JJHS7O5O176868A824C0C9178D7F4D49A4E7E2929.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/F3/WFHAGMCICTCS9JJHS7O5O1.uasset'
+[2025.05.03-21.58.10:892][658]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/VJ/VHUNSHONNJWAX2MU5N6SO5
+[2025.05.03-21.58.10:892][658]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/VHUNSHONNJWAX2MU5N6SO568480DFB47E194C142AE12AD6326B4A2.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/VJ/VHUNSHONNJWAX2MU5N6SO5.uasset'
+[2025.05.03-21.58.10:893][658]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/ZZ/PZDVY448AD12XV8GY65M1G
+[2025.05.03-21.58.10:893][658]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/PZDVY448AD12XV8GY65M1G13EC2BFE407C21C3529F4EA06B37935C.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/ZZ/PZDVY448AD12XV8GY65M1G.uasset'
+[2025.05.03-21.58.10:895][658]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/5S/7YB35H5ZYILLDBXLZYQXWQ
+[2025.05.03-21.58.10:895][658]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/7YB35H5ZYILLDBXLZYQXWQ80D5E2994D9BED3168585CB37723EEF5.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/5S/7YB35H5ZYILLDBXLZYQXWQ.uasset'
+[2025.05.03-21.58.10:896][658]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HD/YGWG526U3PVQLUW6UL7TSG
+[2025.05.03-21.58.10:896][658]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/YGWG526U3PVQLUW6UL7TSGC39C42E0492914F985382DB78DBB2E21.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HD/YGWG526U3PVQLUW6UL7TSG.uasset'
+[2025.05.03-21.58.10:897][658]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/H4/CIFXXJF76WRQK2FCZUE0G2
+[2025.05.03-21.58.10:897][658]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/CIFXXJF76WRQK2FCZUE0G25359B2824A09DCFDC15CDA98DF787F74.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/H4/CIFXXJF76WRQK2FCZUE0G2.uasset'
+[2025.05.03-21.58.10:898][658]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/ZH/AI7JIJNU6O55WB2D37R76D
+[2025.05.03-21.58.10:898][658]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/AI7JIJNU6O55WB2D37R76D25E5796C4659BBD42EC056813E57DC4C.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/ZH/AI7JIJNU6O55WB2D37R76D.uasset'
+[2025.05.03-21.58.10:900][658]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/9Q/1VVP2L1KWX8PYEU906N1E5
+[2025.05.03-21.58.10:900][658]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/1VVP2L1KWX8PYEU906N1E5BC1967EF4FD205E1A185929637010B7C.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/9Q/1VVP2L1KWX8PYEU906N1E5.uasset'
+[2025.05.03-21.58.10:901][658]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/6D/VXISTTGJUH55XGXHYIIGTG
+[2025.05.03-21.58.10:901][658]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/VXISTTGJUH55XGXHYIIGTGB9461DF341F8204F669C029E13868A87.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/6D/VXISTTGJUH55XGXHYIIGTG.uasset'
+[2025.05.03-21.58.10:902][658]LogFileHelpers: InternalPromptForCheckoutAndSave took 16.970 ms (total: 295.326 ms)
+[2025.05.03-21.58.10:902][658]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/HL/Y7QVJ6ZSCXIYUWD2ZDL9ZD
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/F3/WFHAGMCICTCS9JJHS7O5O1
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/VJ/VHUNSHONNJWAX2MU5N6SO5
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/ZZ/PZDVY448AD12XV8GY65M1G
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/5S/7YB35H5ZYILLDBXLZYQXWQ
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HD/YGWG526U3PVQLUW6UL7TSG
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/H4/CIFXXJF76WRQK2FCZUE0G2
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/ZH/AI7JIJNU6O55WB2D37R76D
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/9Q/1VVP2L1KWX8PYEU906N1E5
+/Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/6D/VXISTTGJUH55XGXHYIIGTG
+[2025.05.03-21.58.10:903][658]LogFileHelpers: Saving map 'ThirdPersonMap' took 0.089
+[2025.05.03-21.58.10:903][658]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_Banana] ([2] browsable assets)...
+[2025.05.03-21.58.10:937][658]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_Banana.BP_Banana]
+[2025.05.03-21.58.10:937][658]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_Banana]
+[2025.05.03-21.58.10:941][658]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_Banana
+[2025.05.03-21.58.10:941][658]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/BP_Banana136C5A7745144B3019FEAD99C111E9FD.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/ThirdPerson/Blueprints/BP_Banana.uasset'
+[2025.05.03-21.58.10:942][658]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/F3/WFHAGMCICTCS9JJHS7O5O1
+[2025.05.03-21.58.10:942][658]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/WFHAGMCICTCS9JJHS7O5O15B4AA86A4ABC604D0D03768F108CBB90.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/F3/WFHAGMCICTCS9JJHS7O5O1.uasset'
+[2025.05.03-21.58.10:943][658]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/VJ/VHUNSHONNJWAX2MU5N6SO5
+[2025.05.03-21.58.10:943][658]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/VHUNSHONNJWAX2MU5N6SO53A2CBEDE4091A0759855E3A7434C73CB.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/VJ/VHUNSHONNJWAX2MU5N6SO5.uasset'
+[2025.05.03-21.58.10:944][658]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/ZZ/PZDVY448AD12XV8GY65M1G
+[2025.05.03-21.58.10:945][658]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/PZDVY448AD12XV8GY65M1GFDA97F84439DCFAC3F67CFBF759ECDFF.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/ZZ/PZDVY448AD12XV8GY65M1G.uasset'
+[2025.05.03-21.58.10:945][658]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/5S/7YB35H5ZYILLDBXLZYQXWQ
+[2025.05.03-21.58.10:945][658]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/7YB35H5ZYILLDBXLZYQXWQ38114F1C4776FEAA1591C0895622A4EE.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/1/5S/7YB35H5ZYILLDBXLZYQXWQ.uasset'
+[2025.05.03-21.58.10:946][658]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HD/YGWG526U3PVQLUW6UL7TSG
+[2025.05.03-21.58.10:946][658]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/YGWG526U3PVQLUW6UL7TSGA86F96E348DA64FDFB8ACE912F63ABAA.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/HD/YGWG526U3PVQLUW6UL7TSG.uasset'
+[2025.05.03-21.58.10:947][658]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/H4/CIFXXJF76WRQK2FCZUE0G2
+[2025.05.03-21.58.10:948][658]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/CIFXXJF76WRQK2FCZUE0G2A2E3AC924C8DCF14E984D8AEE5EB46C4.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/H4/CIFXXJF76WRQK2FCZUE0G2.uasset'
+[2025.05.03-21.58.10:949][658]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/ZH/AI7JIJNU6O55WB2D37R76D
+[2025.05.03-21.58.10:949][658]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/AI7JIJNU6O55WB2D37R76D71F9CFB144725F048BE0B69EC523497C.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/4/ZH/AI7JIJNU6O55WB2D37R76D.uasset'
+[2025.05.03-21.58.10:949][658]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_HUD] ([2] browsable assets)...
+[2025.05.03-21.58.10:951][658]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/ThirdPerson/Blueprints/BP_HUD.BP_HUD]
+[2025.05.03-21.58.10:951][658]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_HUD]
+[2025.05.03-21.58.10:951][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Blueprints/BP_HUD" FILE="../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/ThirdPerson/Blueprints/BP_HUD.uasset" SILENT=true
+[2025.05.03-21.58.10:955][658]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_HUD
+[2025.05.03-21.58.10:955][658]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/BP_HUDC7275EC54226D3F0ECA0038D0E4966A3.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/ThirdPerson/Blueprints/BP_HUD.uasset'
+[2025.05.03-21.58.10:958][658]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/9Q/1VVP2L1KWX8PYEU906N1E5
+[2025.05.03-21.58.10:958][658]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/1VVP2L1KWX8PYEU906N1E5EF2C7D6A466233F677CCCA94F432BB2C.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/E/9Q/1VVP2L1KWX8PYEU906N1E5.uasset'
+[2025.05.03-21.58.10:959][658]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/6D/VXISTTGJUH55XGXHYIIGTG
+[2025.05.03-21.58.10:959][658]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/VXISTTGJUH55XGXHYIIGTG2D37114D4E71476BC3DCD3B6FD6316FA.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/6/6D/VXISTTGJUH55XGXHYIIGTG.uasset'
+[2025.05.03-21.58.10:960][658]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3
+[2025.05.03-21.58.10:960][658]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/SWSI13675DVYIZ0N4NF7Y39C2CB71E4E61509FF82D7895222CA723.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/D/DE/SWSI13675DVYIZ0N4NF7Y3.uasset'
+[2025.05.03-21.58.10:961][658]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/HL/Y7QVJ6ZSCXIYUWD2ZDL9ZD
+[2025.05.03-21.58.10:962][658]LogSavePackage: Moving '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Saved/Y7QVJ6ZSCXIYUWD2ZDL9ZDACA4315F4F493577BB118891DF6D4BBA.tmp' to '../../../../../../Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/HL/Y7QVJ6ZSCXIYUWD2ZDL9ZD.uasset'
+[2025.05.03-21.58.10:968][658]LogFileHelpers: InternalPromptForCheckoutAndSave took 212.299 ms (total: 507.625 ms)
+[2025.05.03-21.58.10:990][658]LogStall: Shutdown...
+[2025.05.03-21.58.10:990][658]LogStall: Shutdown complete.
+[2025.05.03-21.58.11:036][658]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.05.03-21.58.11:036][658]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.05.03-21.58.11:036][658]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.03-21.58.11:102][658]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.05.03-21.58.11:102][658]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.03-21.58.11:107][658]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.05.03-21.58.11:107][658]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.03-21.58.11:138][658]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2025.05.03-21.58.11:138][658]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.03-21.58.11:169][658]LogSlate: Window 'MyProject - Unreal Editor' being destroyed
+[2025.05.03-21.58.11:250][658]LogContentValidation: Display: Starting to validate 14 assets
+[2025.05.03-21.58.11:250][658]LogContentValidation: Enabled validators:
+[2025.05.03-21.58.11:250][658]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.05.03-21.58.11:250][658]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.05.03-21.58.11:250][658]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.05.03-21.58.11:250][658]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.05.03-21.58.11:250][658]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.05.03-21.58.11:250][658]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.05.03-21.58.11:250][658]AssetCheck: /Game/ThirdPerson/Maps/ThirdPersonMap Validating asset
+[2025.05.03-21.58.11:250][658]AssetCheck: /Game/ThirdPerson/Blueprints/BP_Banana Validating asset
+[2025.05.03-21.58.11:251][658]AssetCheck: /Game/ThirdPerson/Blueprints/BP_HUD Validating asset
+[2025.05.03-21.58.11:278][658]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.05.03-21.58.11:296][658]Cmd: QUIT_EDITOR
+[2025.05.03-21.58.11:296][658]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.05.03-21.58.11:299][659]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.05.03-21.58.11:299][659]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.05.03-21.58.11:299][659]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.05.03-21.58.11:301][659]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2025.05.03-21.58.11:301][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.03-21.58.11:302][659]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap
+[2025.05.03-21.58.11:308][659]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.05.03-21.58.11:308][659]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.05.03-21.58.11:311][659]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.05.03-21.58.11:311][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.03-21.58.11:315][659]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2025.05.03-21.58.11:316][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.03-21.58.11:319][659]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.05.03-21.58.11:319][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.03-21.58.11:321][659]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.05.03-21.58.11:321][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.03-21.58.11:323][659]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.05.03-21.58.11:323][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.03-21.58.11:326][659]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.05.03-21.58.11:326][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.03-21.58.11:328][659]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.05.03-21.58.11:328][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.05.03-21.58.11:330][659]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.05.03-21.58.11:331][659]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroying ET Analytics provider
+[2025.05.03-21.58.11:331][659]LogAnalytics: Display: [UEEditor.Rocket.Release] Ended ET Analytics provider session
+[2025.05.03-21.58.11:331][659]LogAnalytics: Display: [UEEditor.Rocket.Release] Destroyed ET Analytics provider
+[2025.05.03-21.58.11:645][659]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.05.03-21.58.11:646][659]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.05.03-21.58.11:646][659]LogAudio: Display: Audio Device unregistered from world 'ThirdPersonMap'.
+[2025.05.03-21.58.11:646][659]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.05.03-21.58.11:646][659]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.05.03-21.58.11:647][659]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2025.05.03-21.58.11:659][659]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.05.03-21.58.11:659][659]LogAudio: Display: Audio Device Manager Shutdown
+[2025.05.03-21.58.11:660][659]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2025.05.03-21.58.11:662][659]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.05.03-21.58.11:662][659]LogExit: Preparing to exit.
+[2025.05.03-21.58.11:691][659]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2025.05.03-21.58.11:693][659]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.03-21.58.11:693][659]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.03-21.58.11:693][659]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.03-21.58.11:693][659]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.03-21.58.11:693][659]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.03-21.58.11:693][659]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.03-21.58.11:693][659]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.03-21.58.11:693][659]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.03-21.58.11:693][659]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.03-21.58.11:693][659]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.03-21.58.11:693][659]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.03-21.58.11:693][659]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.03-21.58.11:693][659]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.03-21.58.11:693][659]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.03-21.58.11:693][659]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.03-21.58.11:693][659]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.03-21.58.11:693][659]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.03-21.58.11:693][659]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.03-21.58.11:693][659]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.03-21.58.11:693][659]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.03-21.58.11:693][659]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.05.03-21.58.12:628][659]LogEditorDataStorage: Deinitializing
+[2025.05.03-21.58.12:718][659]LogDirectoryWatcher: Display: Refresh of ReadDirectoryChangesW failed. GetLastError code [6] Handle [FFFFFFFFFFFFFFFF], Path [C:/Users/bat15/Documents/GitHub/FinalProject/MyProject/Content/]. Aborting watch request...
+[2025.05.03-21.58.12:749][659]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.05.03-21.58.12:769][659]LogExit: Editor shut down
+[2025.05.03-21.58.12:770][659]LogExit: Transaction tracking system shut down
+[2025.05.03-21.58.12:857][659]LogCore: Error: PropertyBag: Expecting RefCount to be zero on destructor, but it is 1.
+[2025.05.03-21.58.12:869][659]LogExit: Object subsystem successfully closed.
+[2025.05.03-21.58.12:945][659]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.05.03-21.58.13:744][659]LogMemoryProfiler: Shutdown
+[2025.05.03-21.58.13:744][659]LogNetworkingProfiler: Shutdown
+[2025.05.03-21.58.13:744][659]LoadingProfiler: Shutdown
+[2025.05.03-21.58.13:744][659]LogTimingProfiler: Shutdown
+[2025.05.03-21.58.14:057][659]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.05.03-21.58.14:090][659]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.05.03-21.58.14:090][659]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B02735CB0-41C4-5D0D-8E3D-CDBE39B18C9D%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.5.1-38445549%2B%2B%2BUE5%2BRelease-5.5&UserID=569ee42c45870d4fd3a79f9183f836cc%7C%7C8c375ba5-0f92-45c4-99dc-2a80b055b6f8&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.05.03-21.58.14:095][659]LogStudioTelemetry: Display: Shutdown StudioTelemetry Module
+[2025.05.03-21.58.14:095][659]LogNFORDenoise: NFORDenoise function shutting down
+[2025.05.03-21.58.14:095][659]RenderDocPlugin: plugin has been unloaded.
+[2025.05.03-21.58.14:096][659]LogXGEController: Cleaning working directory: C:/Users/bat15/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.05.03-21.58.14:097][659]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.05.03-21.58.14:097][659]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.05.03-21.58.14:097][659]LogPakFile: Destroying PakPlatformFile
+[2025.05.03-21.58.14:335][659]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.05.03-21.58.14:383][659]LogExit: Exiting.
+[2025.05.03-21.58.14:411][659]Log file closed, 05/03/25 17:58:14
