@@ -16,6 +16,7 @@ public:
 	// Sets default values for this actor's properties
 	ABananaPickup();
 
+	// give one point when banana picked up
 	UPROPERTY(EditAnywhere, Category = "Banana")
 	float Score = 1;
 
@@ -23,6 +24,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
+	// reference to mesh
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	UStaticMeshComponent* _StaticMesh;
 

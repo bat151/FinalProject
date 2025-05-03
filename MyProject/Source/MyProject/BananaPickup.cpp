@@ -15,14 +15,15 @@ ABananaPickup::ABananaPickup()
 void ABananaPickup::BeginPlay()
 {
 	Super::BeginPlay();
-
+	
+	// registar overlap
 	if (HasAuthority()) {
 		OnActorBeginOverlap.AddDynamic(this, &ABananaPickup::OnBananaBeginOverlap);
 	}
 	
 }
 
-// Called every frame
+// Called every frame and make banana rotate
 void ABananaPickup::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
@@ -31,6 +32,7 @@ void ABananaPickup::Tick(float DeltaTime)
 
 }
 
+// disable collsion and hide banana
 void ABananaPickup::OnBananaBeginOverlap(AActor* OverlappedActor, AActor* OtherActor) {
 	SetActorEnableCollision(false);
 	SetActorHiddenInGame(true);
